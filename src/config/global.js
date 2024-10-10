@@ -1,17 +1,28 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Ejecución de actividades y software para órdenes de trabajo',
+    descripcionCurso:
+      'La gestión del mantenimiento industrial requiere de software para generar órdenes de trabajo y ejecutar actividades para dejar los equipos en un óptimo funcionamiento en una mejora continua.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        clases: [
+          'banner-principal-decorativo-1',
+          'd-none',
+          'd-lg-block',
+          'fadeLeft',
+        ],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,27 +42,20 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Mantenimiento asistido por computador',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Requerimientos e instructivos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Conceptos generales sobre fiabilidad',
         desarrolloContenidos: true,
       },
     ],
@@ -102,31 +106,103 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Órdenes de trabajo',
+      referencia: 'Ecosistema recursosSENA [Video]. YouTube',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=t7PFDuJK4oo',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Averías súbitas',
+      significado:
+        'Se presentan de manera inesperada y se caracterizan por ser imposibles de evitar. Su origen se puede centrar en errores de diseño, selección inadecuada del material, funcionamiento deficiente de la maquina o un mal proceso de reparación.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Averías previstas',
+      significado:
+        'Se presenta cuando, al detectar la anomalía esta no se corrige. Por lo general, se presentan en piezas baja vida útil.',
+    },
+    {
+      termino: 'Avería total',
+      significado:
+        'Se produce cuando el equipo no puede realizar todas las funciones para las cuales fue diseñado.',
+    },
+    {
+      termino: 'Avería parcial',
+      significado:
+        'Se presenta cuando la avería solo afecta parcialmente algunas de las funciones del equipo que se consideran de menor importancia.',
+    },
+    {
+      termino: 'Desgaste',
+      significado:
+        'En este periodo la tasa de fallo va en aumento, siendo las averías relativamente frecuentes causando que los costos del mantenimiento se incrementan. Los fallos más comunes en este periodo están relacionados con el tiempo de uso del equipo, por lo que la degradación y el desgaste son notorios.',
+    },
+    {
+      termino: 'Fallos infantiles',
+      significado:
+        'Se presentan principalmente por problemas puntuales de diseño, fabricación, ensamble o montaje.',
+    },
+    {
+      termino: 'Vida útil',
+      significado:
+        'En esta fracción de tiempo la tasa de fallo es relativamente constante. Los fallos que más se presentan en este período son los relacionados con acciones fortuitas, como por ejemplo una sobrecarga de trabajo.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Boucly, F. (1998). Gestión del mantenimiento. AENOR.',
+      link: '',
+    },
+    {
+      referencia:
+        'García, S. (25/02/2014) .Videolibro ingeniería mantenimiento cap2: estrategias de mantenimiento.',
+      link: 'https://www.youtube.com/watch?v=dO1clA0hcTU',
+    },
+    {
+      referencia:
+        'García, S. (25/02/2014). Videolibro ingeniería mantenimiento cap4: la elaboración del plan de mto.',
+      link: 'https://www.youtube.com/watch?v=uwRwLD3aMa8',
+    },
+    {
+      referencia:
+        'García, S. (25/02/2014). Videolibro ingeniería mantenimiento cap5: plan de mto. basado en fabricantes.',
+      link: 'https://www.youtube.com/watch?v=pgUQqcyQoaE',
+    },
+    {
+      referencia:
+        'García, S. (25/02/2014). Videolibro ingeniería mantenimiento cap6: el plan de mto. basado en protocolos por equipos.',
+      link: 'https://www.youtube.com/watch?v=-t1VDOYDLyM',
+    },
+    {
+      referencia:
+        'García, S. (25/02/2014) Videolibro ingeniería mantenimiento cap07: plan de mto. basado en rcm.',
+      link: 'https://www.youtube.com/watch?v=lF0t4RKSeHw',
+    },
+    {
+      referencia:
+        'Kelly, A. & M.J. Harris. (1978). Management of Industrial Maintenance. Butterworths. London.',
+      link: '',
+    },
+    {
+      referencia:
+        'Herrera, H. Mantenimiento y lubricación. Notas de clase. Universidad Tecnológica de Pereira. Pereira (2014).',
+      link: '',
+    },
+    {
+      referencia:
+        'J.M. de Bona.(1999). Gestión del mantenimiento. Criterios para la subcontratación. F.Confemetal.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ruiz Falcó, A. (2012). Concepto de fiabilidad (reliability). Consultado el 29 de septiembre de 2014',
+      link:
+        'https://www.aec.es/c/document_library/get_file?p_l_id=33948&folderId=257007&name=DLFE-11836.pdf',
+    },
+    {
+      referencia:
+        'Souris, J. (1992) Mantenimiento: Fuente de Beneficios. Díaz de Santos, S.A. Madrid.',
       link: '',
     },
   ],
@@ -136,13 +212,15 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
-          centro: 'Dirección General',
+          cargo:
+            'Responsable del ecosistema de recursos educativos digitales (RED)',
+          centro: 'Dirección general',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Miguel de Jesús Paredes Maestre',
+          cargo: 'Responsable de línea de producción',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -150,9 +228,22 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Luz Elena Montoya Rendón',
+          cargo: 'Asesora pedagógica',
+          centro:
+            'Centro de diseño e innovación tecnológica industrial – Regional Risaralda',
+        },
+        {
+          nombre: 'Marcela María Cardona Molina',
+          cargo: 'Instructora',
+          centro:
+            'Centro de diseño e innovación tecnológica industrial – Regional Risaralda',
+        },
+        {
+          nombre: 'Luis Guillermo Álvarez García',
+          cargo: 'Evaluador instruccional',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -160,24 +251,28 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Eulises Orduz Amezquita',
+          cargo: 'Diseñador <em>web</em>',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Rafael Bladimir Pérez Meriño',
+          cargo: 'Desarrollador <em>fullstack</em>',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Animador y productor audiovisual',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Nelson Ivan Vera Briceño',
+          cargo: 'Animador y productor audiovisual',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -185,24 +280,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Jairo Luis Valencia Ebratt',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Juan Carlos Cardona Acosta',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Margarita Marcela Medrano',
+          nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },

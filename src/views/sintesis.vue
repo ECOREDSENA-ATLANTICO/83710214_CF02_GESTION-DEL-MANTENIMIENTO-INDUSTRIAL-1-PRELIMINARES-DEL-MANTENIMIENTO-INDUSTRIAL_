@@ -2,7 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-3 La labor del mantenimiento en cualquier empresa obliga contemplar actividades que corresponden principalmente al mantenimiento correctivo, que suele operar cuando se produce la avería o falla, por tal razón deben lograrse cada vez más, los mejores resultados implementando acciones planes organizados y coherentes, que logren controlar la ejecución de las actividades de mantenimiento.
+    p.mb-3 Se ha establecido las causas y consecuencias de las averías, su importancia en la organización del mantenimiento correctivo, como una condición fundamental para la ejecución de las actividades de mantenimiento, así también se pudo determinar la necesidad de implementar otros tipos de mantenimiento, a causa de la importancia de los equipos en los procesos productivos.
+    p.mb-5 Se pudo constatar la importancia de las actividades del mantenimiento preventivo, al involucrar la planificación y programación, así como su seguimiento y medición, las cuales contribuyen en la productividad, calidad y confiabilidad a la empresa.
+
 
     .row.justify-content-center
       .col-lg-10.mb-5
