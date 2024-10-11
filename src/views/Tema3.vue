@@ -458,7 +458,7 @@
       .col-lg-8.col-md-8
         p Figura 15.
         figure
-          img.my-4(src='@/assets/curso/temas/tema3/img31.svg', alt='Imagen decorativa')
+          img.my-4(src='@/assets/curso/temas/tema3/img31.svg', alt='Img decorativa')
 
 
 </template>
