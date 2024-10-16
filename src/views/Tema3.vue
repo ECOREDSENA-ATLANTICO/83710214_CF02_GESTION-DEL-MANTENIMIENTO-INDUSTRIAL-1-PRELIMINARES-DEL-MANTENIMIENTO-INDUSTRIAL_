@@ -24,33 +24,36 @@
           img.my-4(src="@/assets/curso/temas/tema3/img2.png", alt="imagen decorativa")
       .col-lg-8
         p.my-4.mb-5 Es en la etapa de diseño donde la fiabilidad debe ser contemplada por los diseñadores, donde aspectos como el mantenimiento y la fiabilidad de cada elemento deben ser analizados. Luego será la fiabilidad del equipo la que debe considerarse teniendo en cuenta las mejores prácticas incorporadas en la etapa ensamble, instalación, puesta a punto y del equipo o máquina.
-        p Seguidamente, se pueden evidenciar las necesidades de la fiabilidad:
+        .col-lg-8.d-lg-block.d-none
+          p Seguidamente, se pueden evidenciar las necesidades de la fiabilidad:
 
     .row.justify-content-center.my-4
       .col-lg-3.col-md-8
         figure
           img.my-4(src="@/assets/curso/temas/tema3/img3.png", alt="imagen decorativa")
+      .col-lg-8.d-lg-none.d-block
+        p Seguidamente, se pueden evidenciar las necesidades de la fiabilidad:
       .col-lg-8
-        SlyderF(columnas="col-lg-6 col-xl-6")
-          .tarjeta.p-4(style="background: #E69999")
+        SlyderF(columnas="col-md-6 col-lg-6 col-xl-6")
+          .tarjeta-fondo-2.p-2
             .row.justify-content-center.mb-3
               .col-8
-                img(src="@/assets/curso/temas/tema3/img4.png", alt="imagen decorativa")
+                img.my-2(src="@/assets/curso/temas/tema3/img4.png", alt="imagen decorativa")
             p.text-center Poder cuantificar la fiabilidad en función de la probabilidad.
-          .tarjeta.p-4(style="background: #E69999")
+          .tarjeta-fondo-2.p-2
             .row.justify-content-center.mb-3
               .col-8
-                img(src="@/assets/curso/temas/tema3/img5.png", alt="imagen decorativa")
+                img.my-2(src="@/assets/curso/temas/tema3/img5.png", alt="imagen decorativa")
             p.text-center Comprender lo que se conoce como “buen funcionamiento” en un elemento o máquina.
-          .tarjeta.p-4(style="background: #E69999")
+          .tarjeta-fondo-2.p-2
             .row.justify-content-center.mb-3
               .col-8
-                img(src="@/assets/curso/temas/tema3/img6.png", alt="imagen decorativa")
+                img.my-2(src="@/assets/curso/temas/tema3/img6.png", alt="imagen decorativa")
             p.text-center Tener claridad sobre el ambiente que el equipo necesita para funcionar adecuadamente.
-          .tarjeta.p-4(style="background: #E69999")
+          .tarjeta-fondo-2.p-2
             .row.justify-content-center.mb-3
               .col-8
-                img(src="@/assets/curso/temas/tema3/img7.png", alt="imagen decorativa")
+                img.my-2(src="@/assets/curso/temas/tema3/img7.png", alt="imagen decorativa")
             p.text-center Conocer los tiempos de funcionamiento entre fallas o averías.
 
     .row.justify-content-center.ms-2.p-3(style="background: #F2CCCC; border-radius: 10px 0px 0px 10px")
@@ -66,7 +69,7 @@
     p.my-4 A continuación, los principales conceptos sobre fiabilidad:
 
     .row.justify-content-center
-      SlyderF(columnas="col-lg-4 col-xl-4")
+      SlyderF(columnas="col-md-6 col-lg-4 col-xl-4")
         .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0(style="width:100%")
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
@@ -141,7 +144,7 @@
     p.my-4 El mantenimiento preventivo se refiere al conjunto de actividades o acciones de mantenimiento destinadas a maquinas en funcionamiento, las cuales permite continuar su ciclo de prestación de servicios de manera óptima y segura, con el propósito de prevenir los paros imprevistos, fallas o averías.
 
     .row.justify-content-center
-      .col-lg-5.col-md-8
+      .col-lg-5.col-md-8.align-content-center
         img(src="@/assets/curso/temas/tema3/img16.png", alt="imagen decorativa")
       .col-lg-7
         p.my-4 El mantenimiento correctivo es el conjunto acciones de mantenimiento ejecutados en máquinas y equipos, cuando al producirse la avería, el equipo ha dejado de trabajar según los términos y estándares definidos para su funcionamiento. Por lo que, el propósito de las tareas ejecutadas tiene como objetivo que el equipo se mantenga en la línea de producción.
@@ -211,7 +214,7 @@
               p.my-4.text-light Las causas que pueden generar este tipo de averías son muy diversas. A continuación, se nombran algunas:
               p.my-4.text-light -Pobre lubricación o ausencia de este.<br>-Elevada carga en el equipo o máquina.<br>-Defectos de fabricación o de funcionamiento en componentes tecnológicos.<br>-Programación de reparación inoportuna o inadecuada.<br>-Baja calidad en el proceso de reparación anterior.<br>-Incremento o disminución del voltaje.<br>-Las fallas o averías se deben investigar con el fin de determinar las causas que la  provocaron, y de acuerdo con los resultados obtenidos tomar las medidas encaminadas a disminuir la posibilidad de futuras averías con comportamientos similares.
           
-      .col-lg-4.col-md-8
+      .col-lg-4.col-md-8.align-content-center
         figure
           img(src="@/assets/curso/temas/tema3/img22.png", alt="imagen decorativa")
 

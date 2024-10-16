@@ -31,24 +31,28 @@
           img.my-4(src="@/assets/curso/temas/tema2/img5.png", alt="imagen decorativa")
     
 
-    .row.justify-content-center.my-4.fondo-imagen-4.p-5
+    .row.justify-content-center.my-4.fondo-imagen-4
       .col-lg-6
         h3(data-aos="fade-left").mb-3.mt-4.blue_icon Concepciones más usadas
-        ul.ms-5.mt-3
-          li(style="list-style-type: disc; color: #C10000")
+        ul.mt-3
+          li
+            i.me-2.fas.fa-check(style="color: #C10000")
             span(style="color: #12263F") Estado funcional de la máquina: este permite conocer la función que realiza, y el papel que desempeña en la empresa.
-        ul.ms-5.mt-3
-          li(style="list-style-type: disc; color: #C10000")
+        ul.mt-3
+          li
+            i.me-2.fas.fa-check(style="color: #C10000")
             span(style="color: #12263F") Verificación del estado de la máquina: hace referencia a su estado de funcionamiento.
-        ul.ms-5.mt-3
-          li(style="list-style-type: disc; color: #C10000")
+        ul.mt-3
+          li
+            i.me-2.fas.fa-check(style="color: #C10000")
             span(style="color: #12263F") Empadronamiento de las máquinas: es un inventario de todos los equipos de la empresa que van a ser incluidos dentro del plan de mantenimiento.
-        ul.ms-5.mt-3
-          li(style="list-style-type: disc; color: #C10000")
+        ul.mt-3
+          li
+            i.me-2.fas.fa-check(style="color: #C10000")
             span(style="color: #12263F") Codificación de las máquinas: son nomenclaturas internas utilizadas con el fin de lograr una mejor identificación de la máquina.
-      .col-lg-6.col-md-8
+      .col-lg-6.col-md-8.align-content-center.justify-content-center
         figure
-          img.my-4(src="@/assets/curso/temas/tema2/img7.png", alt="imagen decorativa")
+          img.my-4(style="width:80%")(src="@/assets/curso/temas/tema2/img7.png", alt="imagen decorativa")
 
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de tarjeta
 
@@ -173,59 +177,66 @@
           
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Órdenes de trabajo
 
-    p.mb-4 Para que el proceso de control de mantenimiento sea eficiente, es necesario diseñar un formato que brinde una información detallada de las acciones realizadas en el mantenimiento. Dicho formato se conoce como orden de trabajo, el cual permite.
-    p.my-4 Después, en el siguiente carrusel se podrán observar las diferentes formas de las órdenes de trabajo.
 
     .row.justify-content-center.my-4
-      .col-lg-4.col-md-8
+      .col-lg-12
+        p.mb-4 Para que el proceso de control de mantenimiento sea eficiente, es necesario diseñar un formato que brinde una información detallada de las acciones realizadas en el mantenimiento. Dicho formato se conoce como orden de trabajo, el cual permite.
+      .col-lg-12.d-lg-block.d-none
+        p.my-4 Después, en el siguiente carrusel se podrán observar las diferentes formas de las órdenes de trabajo.
+        
+      .col-lg-4.col-md-8.order-md-2
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img33.png", alt="imagen decorativa")
+      
+      .col-lg-12.order-md-3.d-lg-none.d-block
+        p.my-4 Después, en el siguiente carrusel se podrán observar las diferentes formas de las órdenes de trabajo.
+
       .col-lg-8
-        SlyderF(columnas="col-lg-6 col-xl-6")
-          .tarjeta.p-4(style="background: #E69999")
+        SlyderF(columnas="col-md-6 col-lg-6 col-xl-6")
+          .tarjeta-fondo.p-4
             .row.justify-content-center.mb-3
               .col-8.col-md-6
                 img(src="@/assets/curso/temas/tema2/img34.png", alt="imagen decorativa")
             p.text-center Asignar las acciones de mantenimiento por escrito, ya sea desde el área de mantenimiento o cualquier otra área de la organización.
 
-          .tarjeta.p-4(style="background: #E69999")
+          .tarjeta-fondo.p-4
             .row.justify-content-center.mb-3
               .col-8.col-md-6
                 img(src="@/assets/curso/temas/tema2/img35.png", alt="imagen decorativa")
             p.text-center Definir el personal que se hará cargo de la labor, así como el equipo y los consumibles necesarios.
 
-          .tarjeta.p-4(style="background: #E69999")
+          .tarjeta-fondo.p-4
             .row.justify-content-center.mb-3
               .col-8.col-md-6
                 img(src="@/assets/curso/temas/tema2/img36.png", alt="imagen decorativa")
             p.text-center Utilizar apropiadamente los recursos y así los disminuir los costos de la actividad desarrollada.
 
-          .tarjeta.p-4(style="background: #E69999")
+          .tarjeta-fondo.p-4
             .row.justify-content-center.mb-3
               .col-8.col-md-6
                 img(src="@/assets/curso/temas/tema2/img37.png", alt="imagen decorativa")
             p.text-center Retroalimentar la programación y la planeación del mantenimiento, con el fin de controlar la calidad en el desarrollo de los procedimientos.
 
-          .tarjeta.p-4(style="background: #E69999")
+          .tarjeta-fondo.p-4
             .row.justify-content-center.mb-3
               .col-8.col-md-6
                 img(src="@/assets/curso/temas/tema2/img38.png", alt="imagen decorativa")
             p.text-center Nombre de trabajo y su descripción, el cual debe incluir el número de trabajadores necesarios, herramientas y equipos, insumos o consumibles, así como el tiempo necesario. Si el procedimiento requiere instructivos, estos deben ser referenciados..
 
-          .tarjeta.p-4(style="background: #E69999")
+          .tarjeta-fondo.p-4
             .row.justify-content-center.mb-3
               .col-8.col-md-6
                 img(src="@/assets/curso/temas/tema2/img39.png", alt="imagen decorativa")
             p.text-center • Fecha de ejecución y nivel de urgencia o prioridad.<br>• De ser necesario, se debe brindar información de ingeniería (diagramas, planos y especificaciones).
 
 
-          .tarjeta.p-4(style="background: #E69999")
+          .tarjeta-fondo.p-4
             .row.justify-content-center.mb-3
               .col-8.col-md-6
                 img(src="@/assets/curso/temas/tema2/img40.png", alt="imagen decorativa")
             p.text-center Código del equipo o máquina, se debe incluir su descripción y ubicación en la planta.
 
-          .tarjeta.p-4(style="background: #E69999")
+          .tarjeta-fondo.p-4
             .row.justify-content-center.mb-3
               .col-8.col-md-6
                 img(src="@/assets/curso/temas/tema2/img41.png", alt="imagen decorativa")
@@ -236,7 +247,7 @@
     
     .row.justify-content-center.align-content-center.p-5(style="background: #F2CCCC")
       .col-lg-2.col-md-6.my-2
-        .tarjeta.p-4.fnd-4
+        .tarjeta.p-2.fnd-4
           h4.mb-0 01
           .row.justify-content-center.mb-3
             .col-8.col-md-6
@@ -244,7 +255,7 @@
           p.text-center.mb-0 Hora y Fecha.
           
       .col-lg-2.col-md-6.my-2
-        .tarjeta.p-4.fnd-4
+        .tarjeta.p-2.fnd-4
           h4.mb-0 02
           .row.justify-content-center.mb-3
             .col-8.col-md-6
@@ -252,7 +263,7 @@
           p.text-center.mb-0 Tiempo real que se utilizó.
 
       .col-lg-2.col-md-6.my-2
-        .tarjeta.p-4.fnd-4
+        .tarjeta.p-2.fnd-4
           h4.mb-0 03
           .row.justify-content-center.mb-3
             .col-8.col-md-6
@@ -260,7 +271,7 @@
           p.text-center.mb-0 Costos reales consumidos en mano de obra, material e insumos.
           
       .col-lg-2.col-md-6.my-2
-        .tarjeta.p-4.fnd-4
+        .tarjeta.p-2.fnd-4
           h4.mb-0 04
           .row.justify-content-center.mb-3
             .col-8.col-md-6
@@ -268,7 +279,7 @@
           p.text-center.mb-0 Causas y efectos de las averías o fallas.
           
       .col-lg-2.col-md-6.my-2
-        .tarjeta.p-4.fnd-4
+        .tarjeta.p-2.fnd-4
           h4.mb-0 05
           .row.justify-content-center.mb-3
             .col-8.col-md-6

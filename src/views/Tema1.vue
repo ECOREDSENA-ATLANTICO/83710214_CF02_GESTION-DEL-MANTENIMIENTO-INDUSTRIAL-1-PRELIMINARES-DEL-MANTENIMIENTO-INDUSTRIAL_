@@ -148,7 +148,7 @@
 
     .row.justify-content-center.align-content-center.p-5(style="background: #F6F6F6")
       .col-lg-2.col-md-6.my-2
-        .tarjeta.p-4.fnd-3
+        .tarjeta.p-2.fnd-3
           h4.mb-0 01
           .row.justify-content-center.mb-3
             .col-8
@@ -156,35 +156,35 @@
           p.text-center.mb-0 Requerimientos.
           
       .col-lg-2.col-md-6.my-2
-        .tarjeta.p-4.fnd-3
+        .tarjeta.p-2.fnd-3
           h4.mb-0 02
           .row.justify-content-center.mb-3
             .col-8
               img(src="@/assets/curso/temas/tema1/img19.svg", alt="alt")
           p.text-center.mb-0 Instructivos.
       .col-lg-2.col-md-6.my-2
-        .tarjeta.p-4.fnd-3
+        .tarjeta.p-2.fnd-3
           h4.mb-0 03
           .row.justify-content-center.mb-3
             .col-8
               img(src="@/assets/curso/temas/tema1/img20.svg", alt="alt")
           p.text-center.mb-0 La tarjeta maestra.
       .col-lg-2.col-md-6.my-2
-        .tarjeta.p-4.fnd-3
+        .tarjeta.p-2.fnd-3
           h4.mb-0 04
           .row.justify-content-center.mb-3
             .col-8
               img(src="@/assets/curso/temas/tema1/img21.svg", alt="alt")
           p.text-center.mb-0 Tableros de Control.
       .col-lg-2.col-md-6.my-2
-        .tarjeta.p-4.fnd-3
+        .tarjeta.p-2.fnd-3
           h4.mb-0 05
           .row.justify-content-center.mb-3
             .col-8
               img(src="@/assets/curso/temas/tema1/img22.svg", alt="alt")
           p.text-center.mb-0 Tableros Auxiliares.
       .col-lg-2.col-md-6.my-2
-        .tarjeta.p-4.fnd-3
+        .tarjeta.p-2.fnd-3
           h4.mb-0 06
           .row.justify-content-center.mb-3
             .col-8

@@ -18,29 +18,29 @@
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul2")
           .row(titulo="Averías súbitas")(style="color: white")
             .col-lg-12
-              p.mb-3.text-light se presentan de manera inesperada y se caracterizan por ser imposibles de evitar. Su origen se puede centrar en errores de diseño, selección inadecuada del material, funcionamiento deficiente de la maquina o un mal proceso de reparación.
+              p.mb-3 se presentan de manera inesperada y se caracterizan por ser imposibles de evitar. Su origen se puede centrar en errores de diseño, selección inadecuada del material, funcionamiento deficiente de la maquina o un mal proceso de reparación.
 
           .row(titulo="Averías previstas")(style="color: white")
             .col-lg-12
-              p.mb-3.text-light se presenta cuando, al detectar la anomalía esta no se corrige. Por lo general, se presentan en piezas baja vida útil. De acuerdo con la pérdida de función.
+              p.mb-3 se presenta cuando, al detectar la anomalía esta no se corrige. Por lo general, se presentan en piezas baja vida útil. De acuerdo con la pérdida de función.
 
           .row(titulo="Avería total")(style="color: white")
             .col-lg-12
-              p.mb-3.text-light se produce cuando el equipo no puede realizar todas las funciones para las cuales fue diseñado.
+              p.mb-3 se produce cuando el equipo no puede realizar todas las funciones para las cuales fue diseñado.
 
           .row(titulo="Avería parcial")(style="color: white")
             .col-lg-12
-              p.mb-3.text-light se presenta cuando la avería solo afecta parcialmente algunas de las funciones del equipo que se consideran de menor importancia.
+              p.mb-3 se presenta cuando la avería solo afecta parcialmente algunas de las funciones del equipo que se consideran de menor importancia.
       .col-lg-4.col-md-8
         figure
-          img(src="@/assets/curso/temas/tema3/img23.png", alt="imagen decorativa")
+          img(src="@/assets/curso/temas/tema4/img23.png", alt="imagen decorativa")
 
     p.text-center.my-4 <strong>De la manera como se presenta a lo largo del tiempo:</strong> 
 
     .row.justify-content-center.my-4
       .col-lg-4.col-md-8.align-content-center
         figure
-          img.my-4(src="@/assets/curso/temas/tema3/img24.png", alt="imagen decorativa")
+          img.my-4(src="@/assets/curso/temas/tema4/img24.png", alt="imagen decorativa")
       .col-lg-8.align-content-center.align-content-center
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Avería crónica")(style="color: white")
@@ -65,7 +65,7 @@
     .row.justify-content-center.align-content-center.p-5.mb-3.mt-4(style="background: #F6F6F6")
       .col-lg-3.col-md-8.align-content-center
         figure
-          img.my-3(src="@/assets/curso/temas/tema3/img26.png", alt="imagen decorativa")
+          img.my-3(src="@/assets/curso/temas/tema4/img26.png", alt="imagen decorativa")
       .col-lg-9
         .row.justify-content-center
           .col-lg-3.col-md-6.my-2
@@ -160,52 +160,51 @@
                   img(src="@/assets/curso/temas/tema2/img42.svg", alt="alt")(style="width: 100px")
               p.text-center.mb-0 ¿Las actividades de mantenimiento aplicadas a la pieza fueron los adecuados?
           .col-lg-auto.my-2.col-md-8.align-content-center
-            img(src="@/assets/curso/temas/tema3/img28.png", alt="imagen decorativa")
+            img(src="@/assets/curso/temas/tema4/img28.png", alt="imagen decorativa")
 
 
 
     .row.justify-content-center.align-content-center.p-5.mb-3.mt-4.d-lg-none.d-block(style="background: #F6F6F6")
       .col-lg-9
+        .row
+          .col-md-6.my-2
+            .tarjeta.p-4.fnd-7
+              h4.mb-0 01
+              .row.mb-3.justify-content-center
+                .col-6
+                  img(src="@/assets/curso/temas/tema2/img42.svg", alt="alt")(style="width: 100px")
+              p.text-center.mb-0 ¿Cuánto tiempo duro el elemento o pieza en funcionamiento?
+          .col-md-6.my-2
+            .tarjeta.p-4.fnd-7
+              h4.mb-0 02
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src="@/assets/curso/temas/tema2/img43.svg", alt="alt")(style="width: 100px")
+              p.text-center.mb-0 ¿Qué tipo de solicitaciones de carga experimento la pieza en el instante en que se produjo la avería?
         .row.justify-content-center
-          .col-lg-12.col-md-6.my-2
-            .row.justify-content-center
-              .col-lg-auto.my-2.col-md-12
-                .tarjeta.p-2.mx-2.fnd-7
-                  h4.mb-0 01
-                  .row.mb-3.justify-content-center
-                    .col-6
-                      img(src="@/assets/curso/temas/tema2/img42.svg", alt="alt")(style="width: 100px")
-                  p.text-center.mb-0 ¿Cuánto tiempo duro el elemento o pieza en funcionamiento?
-              .col-lg-auto.my-2.col-md-12
-                .tarjeta.p-2.mx-2.fnd-7
-                  h4.mb-0 02
-                  .row.justify-content-center.mb-3
-                    .col-6
-                      img(src="@/assets/curso/temas/tema2/img43.svg", alt="alt")(style="width: 100px")
-                  p.text-center.mb-0 ¿Qué tipo de solicitaciones de carga experimento la pieza en el instante en que se produjo la avería?
-              .col-lg-auto.my-2.col-md-12
-                .tarjeta.p-2.mx-2.fnd-7
-                  h4.mb-0 03
-                  .row.justify-content-center.mb-3
-                    .col-6
-                      img(src="@/assets/curso/temas/tema2/img42.svg", alt="alt")(style="width: 100px")
-                  p.text-center.mb-0 ¿La pieza estuvo expuesta a sobre carga?
-              .col-lg-auto.my-2.col-md-12
-                .tarjeta.p-2.mx-2.fnd-7
-                  h4.mb-0 04
-                  .row.justify-content-center.mb-3
-                    .col-6
-                      img(src="@/assets/curso/temas/tema2/img43.svg", alt="alt")(style="width: 100px")
-                  p.text-center.mb-0 ¿Se presentaron trastornos significativos en el ambiente?
-              .col-lg-auto.my-2.col-md-12
-                .tarjeta.p-2.mx-2.fnd-7
-                  h4.mb-0 05
-                  .row.justify-content-center.mb-3
-                    .col-6
-                      img(src="@/assets/curso/temas/tema2/img42.svg", alt="alt")(style="width: 100px")
-                  p.text-center.mb-0 ¿Las actividades de mantenimiento aplicadas a la pieza fueron los adecuados?.
+          .col-lg-2.col-md-6.my-2
+            .tarjeta.p-4.fnd-7
+              h4.mb-0 03
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src="@/assets/curso/temas/tema2/img42.svg", alt="alt")(style="width: 100px")
+              p.text-center.mb-0 ¿La pieza estuvo expuesta a sobre carga?
+          .col-lg-2.col-md-6.my-2
+            .tarjeta.p-4.fnd-7
+              h4.mb-0 04
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src="@/assets/curso/temas/tema2/img43.svg", alt="alt")(style="width: 100px")
+              p.text-center.mb-0 ¿Se presentaron trastornos significativos en el ambiente?
+          .col-lg-2.col-md-6.my-2
+            .tarjeta.p-4.fnd-7
+              h4.mb-0 05
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src="@/assets/curso/temas/tema2/img42.svg", alt="alt")(style="width: 100px")
+              p.text-center.mb-0 ¿Las actividades de mantenimiento aplicadas a la pieza fueron los adecuados?.
       .col-lg-3.col-md-8.align-content-center.justify-content-center
-        img.my-4(src="@/assets/curso/temas/tema3/img28.png", alt="alt")
+        img.my-4(src="@/assets/curso/temas/tema4/img28.png", alt="alt")
 
     .row.justify-content-center.py-3(style="background: #F9E6E6")
       .col-lg-4.col-md-8
@@ -221,7 +220,7 @@
     p.my-3 A continuación, se evidencian las fases de análisis de averías:
 
     .row.justify-content-center
-      SlyderF(columnas="col-lg-4 col-xl-4")
+      SlyderF(columnas="col-md-6 col-lg-4 col-xl-4")
         .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0(style="width:100%")
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
@@ -259,7 +258,7 @@
       .col-lg-8.col-md-8
         p Figura 15.
         figure
-          img.my-4(src='@/assets/curso/temas/tema3/img31.svg', alt='Img decorativa')
+          img.my-4(src='@/assets/curso/temas/tema4/img31.svg', alt='Img decorativa')
 
 
 </template>
