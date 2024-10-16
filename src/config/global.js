@@ -5,7 +5,7 @@ export default {
     descripcionCurso:
       'La gestión del mantenimiento industrial requiere de software para generar órdenes de trabajo y ejecutar actividades para dejar los equipos en un óptimo funcionamiento en una mejora continua.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: [
@@ -56,6 +56,12 @@ export default {
         nombreRuta: 'tema3',
         numero: '3',
         titulo: 'Conceptos generales sobre fiabilidad',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Análisis de averías',
         desarrolloContenidos: true,
       },
     ],

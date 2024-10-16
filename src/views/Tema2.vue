@@ -52,41 +52,41 @@
 
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de tarjeta
 
-    .row.justify-content-center.my-4 
+    .row.justify-content-center.my-4.fondo-imagen-7
       .col-lg-10.col-md-8 
         p Figura 4.
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img8.svg", alt="imagen decorativa")
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img9.svg", alt="imagen decorativa")
+      
+      .row.justify-content-center.my-4 
+        .col-lg-10.col-md-8 
+          p Figura 5.
+          figure
+            img.my-4(src="@/assets/curso/temas/tema2/img10.svg", alt="imagen decorativa")
+          figure
+            img.my-4(src="@/assets/curso/temas/tema2/img11.svg", alt="imagen decorativa")
+          figure
+            img.my-4(src="@/assets/curso/temas/tema2/img12.svg", alt="imagen decorativa")
+          figure
+            img.my-4(src="@/assets/curso/temas/tema2/img13.svg", alt="imagen decorativa")
+          figure
+            img.my-4(src="@/assets/curso/temas/tema2/img14.svg", alt="imagen decorativa")
     
-    .row.justify-content-center.my-4 
-      .col-lg-10.col-md-8 
-        p Figura 5.
-        figure
-          img.my-4(src="@/assets/curso/temas/tema2/img10.svg", alt="imagen decorativa")
-        figure
-          img.my-4(src="@/assets/curso/temas/tema2/img11.svg", alt="imagen decorativa")
-        figure
-          img.my-4(src="@/assets/curso/temas/tema2/img12.svg", alt="imagen decorativa")
-        figure
-          img.my-4(src="@/assets/curso/temas/tema2/img13.svg", alt="imagen decorativa")
-        figure
-          img.my-4(src="@/assets/curso/temas/tema2/img14.svg", alt="imagen decorativa")
-   
-    .row.justify-content-center.my-4 
-      .col-lg-10.col-md-8 
-        p Figura 6.
-        figure
-          img.my-4(src="@/assets/curso/temas/tema2/img15.svg", alt="imagen decorativa")
-        figure
-          img.my-4(src="@/assets/curso/temas/tema2/img16.svg", alt="imagen decorativa")
-        figure
-          img.my-4(src="@/assets/curso/temas/tema2/img17.svg", alt="imagen decorativa")
-        figure
-          img.my-4(src="@/assets/curso/temas/tema2/img18.svg", alt="imagen decorativa")
-        figure
-          img.my-4(src="@/assets/curso/temas/tema2/img19.svg", alt="imagen decorativa")
+      .row.justify-content-center.my-4 
+        .col-lg-10.col-md-8 
+          p Figura 6.
+          figure
+            img.my-4(src="@/assets/curso/temas/tema2/img15.svg", alt="imagen decorativa")
+          figure
+            img.my-4(src="@/assets/curso/temas/tema2/img16.svg", alt="imagen decorativa")
+          figure
+            img.my-4(src="@/assets/curso/temas/tema2/img17.svg", alt="imagen decorativa")
+          figure
+            img.my-4(src="@/assets/curso/temas/tema2/img18.svg", alt="imagen decorativa")
+          figure
+            img.my-4(src="@/assets/curso/temas/tema2/img19.svg", alt="imagen decorativa")
 
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Ejemplo tarjeta maestra diligenciada
 

@@ -3,24 +3,29 @@
     animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 20%
+    right: 5%
   &-2
     animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 37%
+    right: 35%
   &-3
     animation: float3 3.1s ease-in-out infinite alternate
     position: absolute
-    top: 0%
-    right: 30%
+    top: 5%
+    right: 15%
+
+.banner-principal .tarjeta 
+  background-color: #0F1F33
+  background-size: cover
+  background-position: center
 
 @media (max-width: 1024px) 
   .banner-principal .tarjeta
-    background-image: url(../assets/curso/portada/fondo-banner.png) !important
+    background-image: url(../assets/curso/portada/fondo-banner.svg) !important
 @media (max-width: 430px) 
   .banner-principal .tarjeta
-    background-image: url(../assets/curso/portada/fondo-banner-responsive.png) !important
+    background-image: url(../assets/curso/portada/fondo-banner-responsive.svg) !important
 
 .banner-principal
   &__img
@@ -34,19 +39,19 @@
 
 @keyframes float1
   0%
-    transform: translateY(210px)
+    transform: translateY(120px)
 
   100%
-    transform: translateY(250px)
+    transform: translateY(80px)
 @keyframes float2
   0%
-    transform: translateX(230px)
+    transform: translateX(165px)
 
   100%
-    transform: translateX(150px)
+    transform: translateX(130px)
 @keyframes float3
   0%
-    transform: translateY(140px)
+    transform: translateY(50px)
 
   100%
     transform: translateY(0px)
@@ -104,6 +109,12 @@
   background-size: cover !important
   padding: 0
 
+.fondo-imagen-7
+  background-image: url(../assets/curso/temas/tema2/img46.svg) !important
+  background-repeat: no-repeat
+  background-size: contain !important
+  padding: 0
+
 .fnd-3
   background-color: #fff
   border-radius: 10px
@@ -124,7 +135,14 @@
   background-color: #fff
   border-radius: 10px
   height: 330px
-  width: 110%
+  width: 132px
+  h4
+    color: #000874
+.fnd-7
+  background-color: #fff
+  border-radius: 10px
+  height: 330px
+  width: 250px
   h4
     color: #740000
 

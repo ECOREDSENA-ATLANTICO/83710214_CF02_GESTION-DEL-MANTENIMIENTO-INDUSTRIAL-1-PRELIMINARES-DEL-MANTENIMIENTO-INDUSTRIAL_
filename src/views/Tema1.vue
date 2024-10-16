@@ -194,13 +194,13 @@
 
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Conceptos Básicos de Microsoft Excel
     
-    .row.justify-content-center.align-items-center.p-4(style="background: #E69999")
+    .row.justify-content-center.align-items-center.p-4(style="background: #F6D8D8")
       .col-lg-9
         p Microsoft® Office Excel® es un programa computacional que permite el manejo de hojas de cálculo, configuradas en libros para cálculos de todo tipo de manera simple e intuitiva. Esta herramienta es utilizada para el manejo de datos y su almacenamiento, también proporciona herramientas para la manipulación numérica y estadística de los datos, permitiendo su organizada tabulación e ilustración gráfica de los mismos. Microsoft® Office Excel® es una de las herramientas de uso común en el paquete ofimático de la suite de Microsoft Office.
       .col-lg-3.col-md-8
         img(src="@/assets/curso/temas/tema1/img24.png", alt="alt")
       
-    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Interfaz de Microsoft® Office Excel®}
+    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Interfaz de Microsoft® Office Excel®
 
     .row.justify-content-center.my-4
       .col-lg-10.col-md-8
