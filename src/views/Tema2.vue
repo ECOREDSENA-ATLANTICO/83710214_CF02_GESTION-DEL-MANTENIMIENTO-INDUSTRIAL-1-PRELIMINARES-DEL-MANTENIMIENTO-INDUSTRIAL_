@@ -36,23 +36,19 @@
         h3(data-aos="fade-left").mb-3.mt-4.blue_icon Concepciones más usadas
         ul.mt-3
           li
-            i.me-2.fas.fa-check(style="color: #C10000")
             span(style="color: #12263F") Estado funcional de la máquina: este permite conocer la función que realiza, y el papel que desempeña en la empresa.
         ul.mt-3
           li
-            i.me-2.fas.fa-check(style="color: #C10000")
             span(style="color: #12263F") Verificación del estado de la máquina: hace referencia a su estado de funcionamiento.
         ul.mt-3
           li
-            i.me-2.fas.fa-check(style="color: #C10000")
             span(style="color: #12263F") Empadronamiento de las máquinas: es un inventario de todos los equipos de la empresa que van a ser incluidos dentro del plan de mantenimiento.
         ul.mt-3
           li
-            i.me-2.fas.fa-check(style="color: #C10000")
             span(style="color: #12263F") Codificación de las máquinas: son nomenclaturas internas utilizadas con el fin de lograr una mejor identificación de la máquina.
       .col-lg-6.col-md-8.align-content-center.justify-content-center
         figure
-          img.my-4(style="width:80%")(src="@/assets/curso/temas/tema2/img7.png", alt="imagen decorativa")
+          img.my-4(style="padding:3em")(src="@/assets/curso/temas/tema2/img7.png", alt="imagen decorativa")
 
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de tarjeta
 
@@ -191,7 +187,7 @@
       .col-lg-12.order-md-3.d-lg-none.d-block
         p.my-4 Después, en el siguiente carrusel se podrán observar las diferentes formas de las órdenes de trabajo.
 
-      .col-lg-8
+      .col-lg-8.order-md-4
         SlyderF(columnas="col-md-6 col-lg-6 col-xl-6")
           .tarjeta-fondo.p-4
             .row.justify-content-center.mb-3
@@ -247,7 +243,7 @@
     
     .row.justify-content-center.align-content-center.p-5(style="background: #F2CCCC")
       .col-lg-2.col-md-6.my-2
-        .tarjeta.p-2.fnd-4
+        .tarjeta.p-1.fnd-4
           h4.mb-0 01
           .row.justify-content-center.mb-3
             .col-8.col-md-6
@@ -255,7 +251,7 @@
           p.text-center.mb-0 Hora y Fecha.
           
       .col-lg-2.col-md-6.my-2
-        .tarjeta.p-2.fnd-4
+        .tarjeta.p-1.fnd-4
           h4.mb-0 02
           .row.justify-content-center.mb-3
             .col-8.col-md-6
@@ -263,7 +259,7 @@
           p.text-center.mb-0 Tiempo real que se utilizó.
 
       .col-lg-2.col-md-6.my-2
-        .tarjeta.p-2.fnd-4
+        .tarjeta.p-1.fnd-4
           h4.mb-0 03
           .row.justify-content-center.mb-3
             .col-8.col-md-6
@@ -271,7 +267,7 @@
           p.text-center.mb-0 Costos reales consumidos en mano de obra, material e insumos.
           
       .col-lg-2.col-md-6.my-2
-        .tarjeta.p-2.fnd-4
+        .tarjeta.p-1.fnd-4
           h4.mb-0 04
           .row.justify-content-center.mb-3
             .col-8.col-md-6
@@ -279,7 +275,7 @@
           p.text-center.mb-0 Causas y efectos de las averías o fallas.
           
       .col-lg-2.col-md-6.my-2
-        .tarjeta.p-2.fnd-4
+        .tarjeta.p-1.fnd-4
           h4.mb-0 05
           .row.justify-content-center.mb-3
             .col-8.col-md-6
