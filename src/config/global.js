@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Ejecución de actividades y software para órdenes de trabajo',
+      'Ejecución de actividades y <em>software</em> para órdenes de trabajo',
     descripcionCurso:
-      'La gestión del mantenimiento industrial requiere de software para generar órdenes de trabajo y ejecutar actividades para dejar los equipos en un óptimo funcionamiento en una mejora continua.',
+      'La gestión del mantenimiento industrial requiere de <em>software</em> para generar órdenes de trabajo y ejecutar actividades para dejar los equipos en un óptimo funcionamiento en una mejora continua.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -122,12 +122,12 @@ export default {
     {
       termino: 'Averías súbitas',
       significado:
-        'Se presentan de manera inesperada y se caracterizan por ser imposibles de evitar. Su origen se puede centrar en errores de diseño, selección inadecuada del material, funcionamiento deficiente de la maquina o un mal proceso de reparación.',
+        'Se presentan de manera inesperada y se caracterizan por ser imposibles de evitar. Su origen se puede centrar en errores de diseño, selección inadecuada del material, funcionamiento deficiente de la máquina o un mal proceso de reparación.',
     },
     {
       termino: 'Averías previstas',
       significado:
-        'Se presenta cuando, al detectar la anomalía esta no se corrige. Por lo general, se presentan en piezas baja vida útil.',
+        'Se presenta cuando, al detectar la anomalía esta no se corrige. Por lo general, se presentan en piezas de baja vida útil.',
     },
     {
       termino: 'Avería total',

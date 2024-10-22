@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Requerimientos e instructivos.
+      h1 Requerimientos e instructivos
     
     .row.justify-content-center.aling-items-center
       .col-lg-4.col-md-8
@@ -13,18 +13,18 @@
           img.my-4(src="@/assets/curso/temas/tema2/img1.png", alt="imagen decorativa")
       .col-lg-8
         p.mb-3 Los requerimientos de una máquina son aquellas acciones de mantenimiento o actividades que se deben practicar a la máquina para que no falle o se dañe. Al implementar estas acciones, se puede garantizar la vida útil de los equipos. 
-        p.my-4 Estos requerimientos se pueden encontrar en catálogos e información que puede ser suministrada por personas que estén involucradas en cada uno de los procesos. Cada requerimiento dará origen a un instructivo, el cual debe contener los siguientes elementos: a) Código, b) nombre, c) material necesario, d) cuerpo y e) tiempo estimado de ejecución. Los requerimientos están asociados generalmente a labores de lubricación, electricidad, instrumentación y mecánica. A continuación, se ilustra el formato básico para un instructivo y la distribución de los elementos que debe contener.
+        p.my-4 Estos requerimientos se pueden encontrar en catálogos e información que puede ser suministrada por personas que estén involucradas en cada uno de los procesos. Cada requerimiento dará origen a un instructivo, el cual debe contener los siguientes elementos: a) código, b) nombre, c) material necesario, d) cuerpo y e) tiempo estimado de ejecución. Los requerimientos están asociados generalmente a labores de lubricación, electricidad, instrumentación y mecánica. A continuación, se ilustra el formato básico para un instructivo y la distribución de los elementos que debe contener.
 
     .row.justify-content-center.my-4.fondo-imagen-2
       .col-lg-6.col-md-8
-        p Figura 3. Ejemplo Instructivo
+        p Figura 3. <em>Ejemplo Instructivo</em>
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img2.svg", alt="imagen decorativa")   
         p.text-center Fuente: (SENA – LP Risaralda, 2014).
 
     .row.justify-content-center.fondo-imagen-3.p-3
       .col-lg-9.align-content-center
-        p Con el ejemplo anterior, se observa que el instructivo es la bitácora del operario, el cual lo orienta y direcciona den el desarrollo y ejecución de la acción del mantenimiento. Los instructivos pueden ser de lubricación, electricidad, mecánica e Instrumentación.
+        p Con el ejemplo anterior, se observa que el instructivo es la bitácora del operario, el cual lo orienta y direcciona en el desarrollo y ejecución de la acción del mantenimiento. Los instructivos pueden ser de lubricación, electricidad, mecánica e Instrumentación.
         p Para establecer los requerimientos e instructivos necesarios en los equipos que se encuentran bajo la supervisión del área de mantenimiento, es necesario realizar los siguientes pasos:
       .col-lg-3.col-md-8
         figure
@@ -52,17 +52,20 @@
 
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de tarjeta
 
+    p.my-3 Son las fichas donde se consignan las características principales de la máquina obtenidas a través de sus placas, recolección de información en catálogos, personas involucradas, página web donde podemos encontrar fecha de compra, marca, modelo, motor, capacidad, color, tamaño, peso, servicios, entre otros.
+    p.my-3 A continuación, varios ejemplos de tarjetas maestras:
+
     .row.justify-content-center.my-4.fondo-imagen-7
       .col-lg-10.col-md-8 
-        p Figura 4.
+        p Figura 4. <em>Esquema de tarjeta</em>
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img8.svg", alt="imagen decorativa")
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img9.svg", alt="imagen decorativa")
-      
+        p.mt-2.text-center Fuente: (SENA – LP Risaralda, 2014).
       .row.justify-content-center.my-4 
         .col-lg-10.col-md-8 
-          p Figura 5.
+          p Figura 5. <em>Tarjeta de motores hidráulicos</em>
           figure
             img.my-4(src="@/assets/curso/temas/tema2/img10.svg", alt="imagen decorativa")
           figure
@@ -73,10 +76,11 @@
             img.my-4(src="@/assets/curso/temas/tema2/img13.svg", alt="imagen decorativa")
           figure
             img.my-4(src="@/assets/curso/temas/tema2/img14.svg", alt="imagen decorativa")
+          p.mt-2.text-center Fuente: (SENA – LP Risaralda, 2014).
     
       .row.justify-content-center.my-4 
         .col-lg-10.col-md-8 
-          p Figura 6.
+          p Figura 6. <em>Tarjeta de válvulas</em>
           figure
             img.my-4(src="@/assets/curso/temas/tema2/img15.svg", alt="imagen decorativa")
           figure
@@ -87,12 +91,13 @@
             img.my-4(src="@/assets/curso/temas/tema2/img18.svg", alt="imagen decorativa")
           figure
             img.my-4(src="@/assets/curso/temas/tema2/img19.svg", alt="imagen decorativa")
+          p.mt-2.text-center Fuente: (SENA – LP Risaralda, 2014).
 
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Ejemplo tarjeta maestra diligenciada
 
     .row.justify-content-center.fondo-imagen-5
       .col-lg-10.col-md-8
-        p.my-4 Figura 7.
+        p.my-4 Figura 7. <em>Ejemplo tarjeta maestra diligenciada</em>
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img21.svg", alt="imagen decorativa")
       .col-lg-7.col-md-8
@@ -105,13 +110,13 @@
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Hoja de vida de la máquina
 
     p.my-4 Luego de realizar la tarjeta maestra, es importante contar para cada máquina con el recuento de identificación del equipo, fecha, código del instructivo, trabajo realizado, costo, tiempo y quien lo realiza. Lo anterior se conoce como hoja de vida de la máquina. A continuación, se presenta el esquema de una hoja de vida. 
-    p Figura 8.
+    p Figura 8. <em>Hoja de vida de la máquina</em>
     figure
       img.my-4(src="@/assets/curso/temas/tema2/img24.svg", alt="imagen decorativa")
     p.text-center Fuente: (SENA – LP Risaralda, 2014).
 
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Ejemplo hoja de vida diligenciada
-    p Figura 9.
+    p Figura 9. <em>Ejemplo hoja de vida diligenciada</em>
     figure
       img.my-4(src="@/assets/curso/temas/tema2/img25.svg", alt="imagen decorativa")
 
@@ -121,7 +126,7 @@
       .col-lg-8(data-aos="fade-left")
         p.mb Es un cronograma de actividades que se debe realizar a las máquinas periódicamente; cuando la actividad es diaria, semanal o anual se construye un cronograma llamado rutina diaria, rutina semanal o rutina anual respectivamente.
         .cajon.color-primario.p-4(style="background: #E69999")
-          p.mt-0.mb-0 El tablero de control debe ser balanceo, frecuentemente se hace por tanteo buscando que se encuentre una separación entre la carga máxima y mínima del 10%.
+          p.mt-0.mb-0 El tablero de control debe ser balanceo, frecuentemente se hace por tanteo buscando que se encuentre una separación entre la carga máxima y mínima del 10 %.
       .col-lg-4.col-md-8(data-aos="fade-right")
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img26.png", alt="imagen decorativa")
@@ -132,18 +137,20 @@
 
     .row.justify-content-center.fondo-imagen-6
       .col-lg-6.col-md-8
+        p Figura 10. <em>Esquema de un tablero de control</em>
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img27.svg", alt="imagen decorativa")
         p.text-center Fuente: (SENA – LP Risaralda, 2014).
-      p.my-4 En la siguiente figura se muestra un ejemplo de un tablero de control diligenciado.
+      p.my-4 Si los instructivos deben aplicarse diariamente, entonces debes recurrirse a el formato rutina diaria. En seguida, se muestra un ejemplo del formato.
       
       .col-lg-12
-        h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de un tablero de control
+        h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de un tablero de control diligenciado
+
       .col-lg-6.col-md-8.justify-content-center
-        p Figura 10.
+        p Figura 11. <em>Tablero de control diligenciado</em>
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img28.svg", alt="imagen decorativa")
-      p.my-4 Son tableros utilizados con el fin de configurar el cronograma semanal y diario de la asignación de instructivos para cada máquina. Su propósito es evitar la saturación del tablero general de control, en el caso en que un instructivo deba practicarse de manera permanente todas las semanas o todos los días.
+      p.my-4 Es bueno resaltar que el requerimiento L-03 puede servir para varias máquinas, pero tener diferentes frecuencias de ejecución. Por lo anterior los instructivos no deben llevar escrito a que maquinas se van a implementar. En el único espacio donde se sabe a qué equipos se les ejecuta es determinado en el instructivo.
 
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Tableros auxiliares
 
@@ -152,22 +159,22 @@
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img30.png", alt="imagen decorativa")
       .col-lg-8(data-aos="fade-left")
-        p.mb Es un cronograma de actividades que se debe realizar a las máquinas periódicamente; cuando la actividad es diaria, semanal o anual se construye un cronograma llamado rutina diaria, rutina semanal o rutina anual respectivamente.
+        p.mb Son tableros utilizados con el fin de configurar el cronograma semanal y diario de la asignación de instructivos para cada máquina. Su propósito es evitar la saturación del tablero general de control, en el caso en que un instructivo deba practicarse de manera permanente todas las semanas o todos los días.
         .cajon.color-acento-contenido.p-4(style="background: #ACC8E2")
           p.mt-0.mb-0 Si contamos con instructivos que se deban aplicar semanalmente, entonces se recurre a un formato llamado rutina semanal. A continuación, se muestra un ejemplo del formato.
     
     
-    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de un tablero de control: Rutina Semanal
+    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de un tablero de control: rutina semanal
     .row.justify-content-center.my-4
       .col-lg-10.col-md-8
-        p Figura 11.
+        p Figura 12. <em>Esquema de un tablero de control: rutina semanal</em>
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img31.svg", alt="imagen decorativa")
           
-    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de un tablero de control: Rutina diaria.
+    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de un tablero de control: rutina diaria
     .row.justify-content-center.my-4
       .col-lg-10.col-md-8
-        p Figura 12.
+        p Figura 13. <em>Esquema de un tablero de control: rutina diaria</em>
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img32.svg", alt="imagen decorativa")
           
@@ -205,7 +212,7 @@
             .row.justify-content-center.mb-3
               .col-8.col-md-6
                 img(src="@/assets/curso/temas/tema2/img36.png", alt="imagen decorativa")
-            p.text-center Utilizar apropiadamente los recursos y así los disminuir los costos de la actividad desarrollada.
+            p.text-center Utilizar apropiadamente los recursos y así disminuir los costos de la actividad desarrollada.
 
           .tarjeta-fondo.p-4
             .row.justify-content-center.mb-3
@@ -217,7 +224,7 @@
             .row.justify-content-center.mb-3
               .col-8.col-md-6
                 img(src="@/assets/curso/temas/tema2/img38.png", alt="imagen decorativa")
-            p.text-center Nombre de trabajo y su descripción, el cual debe incluir el número de trabajadores necesarios, herramientas y equipos, insumos o consumibles, así como el tiempo necesario. Si el procedimiento requiere instructivos, estos deben ser referenciados..
+            p.text-center Nombre de trabajo y su descripción, el cual debe incluir el número de trabajadores necesarios, herramientas y equipos, insumos o consumibles, así como el tiempo necesario. Si el procedimiento requiere instructivos, estos deben ser referenciados.
 
           .tarjeta-fondo.p-4
             .row.justify-content-center.mb-3
@@ -239,7 +246,7 @@
             p.text-center Nombre del usuario quien solicita el trabajo (se debe incluir el área o departamento a donde pertenece).
 
         
-    p.my-4 A continuación, se muestra un ejemplo de orden de trabajo para propósitos generales:
+    p.my-4 Para la programación y control, la orden de trabajo debe contener la siguiente información:
     
     .row.justify-content-center.align-content-center.p-5(style="background: #F2CCCC")
       .col-lg-2.col-md-6.my-2
@@ -248,7 +255,7 @@
           .row.justify-content-center.mb-3
             .col-8.col-md-6
               img(src="@/assets/curso/temas/tema2/img42.svg", alt="alt")
-          p.text-center.mb-0 Hora y Fecha.
+          p.text-center.mb-0 Hora y fecha.
           
       .col-lg-2.col-md-6.my-2
         .tarjeta.p-1.fnd-4
@@ -284,11 +291,7 @@
 
     p.my-4 A continuación, se muestra un ejemplo de orden de trabajo para propósitos generales:
 
-    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Órdenes de trabajo
-
-    p.my-4 Esquema formato orden de trabajo.
-
-    p Figura 13.
+    p Figura 14. <em>Esquema formato orden de trabajo</em>
     img(src="@/assets/curso/temas/tema2/img44.svg", alt="alt")
 
 

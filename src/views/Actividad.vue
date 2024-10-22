@@ -15,7 +15,8 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Ejecución de actividades y software para órdenes de trabajo',
+      tema:
+        'Ejecución de actividades y <em>software</em> para órdenes de trabajo',
       titulo: 'Cuestionario',
       introduccion:
         'Lea cada enunciado referente a los temas desarrollados en el componente formativo y elija entre verdadero y falso según corresponda.',
@@ -24,7 +25,7 @@ export default {
         {
           id: 1,
           texto:
-            '<strong><em>Un sistema de gestión de mantenimiento se conoce como sistema de información </em></strong>',
+            '<strong><em>Un sistema de gestión de mantenimiento se conoce como sistema de información.</em></strong>',
           imagen: require('@/assets/actividad/pregunta_1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -39,7 +40,7 @@ export default {
         {
           id: 2,
           texto:
-            'Las herramientas tecnológicas aportan desorden en la información ',
+            '<strong><em>Las herramientas tecnológicas aportan desorden en la información.</strong></em>',
           imagen: require('@/assets/actividad/pregunta_2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -54,7 +55,7 @@ export default {
         {
           id: 3,
           texto:
-            'Excel es una herramienta que ayuda a la programación y organización de información ',
+            '<strong><em>Excel es una herramienta que ayuda a la programación y organización de información.</strong></em>',
           imagen: require('@/assets/actividad/pregunta_3.png'),
           barajarRespuestas: false,
           opciones: [
@@ -69,7 +70,7 @@ export default {
         {
           id: 4,
           texto:
-            'Las tarjetas maestras son fichas donde se consignan las características principales de la máquina.',
+            '<strong><em>Las tarjetas maestras son fichas donde se consignan las características principales de la máquina.</strong></em>',
           imagen: require('@/assets/actividad/pregunta_4.png'),
           barajarRespuestas: false,
           opciones: [
@@ -84,7 +85,7 @@ export default {
         {
           id: 5,
           texto:
-            'La fiabilidad es importante para el óptimo funcionamiento de las máquinas.',
+            '<strong><em>La fiabilidad es importante para el óptimo funcionamiento de las máquinas.</strong></em>',
           imagen: require('@/assets/actividad/pregunta_1.png'),
           barajarRespuestas: false,
           opciones: [
@@ -99,7 +100,7 @@ export default {
         {
           id: 6,
           texto:
-            'Los requerimientos de una máquina son aquellas acciones de mantenimiento o actividades que se deben practicar a la máquina para que no falle o se dañe. ',
+            '<strong><em>Los requerimientos de una máquina son aquellas acciones de mantenimiento o actividades que se deben practicar a la máquina para que no falle o se dañe.</strong></em>',
           imagen: require('@/assets/actividad/pregunta_2.png'),
           barajarRespuestas: false,
           opciones: [
@@ -114,7 +115,7 @@ export default {
         {
           id: 7,
           texto:
-            'Luego de realizar la tarjeta maestra, es importante contar para cada máquina con el recuento de identificación del equipo, fecha, código del instructivo, trabajo realizado, costo, tiempo y quien lo realiza. ',
+            '<strong><em>Luego de realizar la tarjeta maestra, es importante contar para cada máquina con el recuento de identificación del equipo, fecha, código del instructivo, trabajo realizado, costo, tiempo y quien lo realiza.</strong></em>',
           imagen: require('@/assets/actividad/pregunta_3.png'),
           barajarRespuestas: false,
           opciones: [
@@ -129,7 +130,7 @@ export default {
         {
           id: 8,
           texto:
-            'Los tableros auxiliares son tableros utilizados con el fin de sobre escribir el cronograma anual de la asignación de instructivos para cada lote de ganado. ',
+            '<strong><em>Los tableros auxiliares son tableros utilizados con el fin de sobre escribir el cronograma anual de la asignación de instructivos para cada lote de ganado.</strong></em>',
           imagen: require('@/assets/actividad/pregunta_4.png'),
           barajarRespuestas: false,
           opciones: [
@@ -144,7 +145,7 @@ export default {
         {
           id: 9,
           texto:
-            'La programación y el control de las ordenes de trabajo es importante para el proceso. ',
+            '<strong><em>La programación y el control de las ordenes de trabajo es importante para el proceso.</strong></em>',
           imagen: require('@/assets/actividad/pregunta_1.png'),
           barajarRespuestas: false,
           opciones: [
@@ -159,7 +160,7 @@ export default {
         {
           id: 10,
           texto:
-            'La fiabilidad, se puede decir que es la probabilidad de que un elemento o equipo trabaje sin fallos durante un tiempo determinado. ',
+            '<strong><em>La fiabilidad, se puede decir que es la probabilidad de que un elemento o equipo trabaje sin fallos durante un tiempo determinado.</strong></em>',
           imagen: require('@/assets/actividad/pregunta_3.png'),
           barajarRespuestas: false,
           opciones: [
