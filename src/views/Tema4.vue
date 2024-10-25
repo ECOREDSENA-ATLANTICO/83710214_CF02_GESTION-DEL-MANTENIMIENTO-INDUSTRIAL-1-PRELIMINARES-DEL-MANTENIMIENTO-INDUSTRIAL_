@@ -259,6 +259,7 @@
         p Figura 16. <em>Estructura metodología análisis de averías</em>
         figure
           img.my-4(src='@/assets/curso/temas/tema4/img31.svg', alt='Img decorativa')
+        p.text-center Fuente: (SENA – LP Risaralda, 2014).
 
 
 </template>

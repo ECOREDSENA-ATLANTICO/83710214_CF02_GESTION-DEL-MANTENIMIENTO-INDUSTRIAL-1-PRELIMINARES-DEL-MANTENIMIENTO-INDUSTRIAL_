@@ -105,6 +105,7 @@
       .col-lg-7.col-md-8
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img23.svg", alt="imagen decorativa")
+        p.mt-2.text-center Fuente: (SENA – LP Risaralda, 2014).
     
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Hojas de vida
 
@@ -117,6 +118,7 @@
     p Figura 9. <em>Ejemplo hoja de vida diligenciada</em>
     figure
       img.my-4(src="@/assets/curso/temas/tema2/img25.svg", alt="imagen decorativa")
+    p.mt-2.text-center Fuente: (SENA – LP Risaralda, 2014).
 
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Tableros de control
     
@@ -133,14 +135,14 @@
 
 
     .row.justify-content-center.fondo-imagen-6
-      .col-lg-6.col-md-8
+      .col-lg-7.col-md-8
         p Figura 10. <em>Esquema de un tablero de control</em>
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img27.svg", alt="imagen decorativa")
         p.text-center Fuente: (SENA – LP Risaralda, 2014).
       
 
-      .col-lg-6.col-md-8.justify-content-center
+      .col-lg-7.col-md-8.justify-content-center
         p Figura 11. <em>Tablero de control diligenciado</em>
         figure
           img.mt-4(src="@/assets/curso/temas/tema2/img28.svg", alt="imagen decorativa")
