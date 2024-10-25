@@ -110,8 +110,9 @@
             .crd_hover_txt--body
               h4.mb-3 MTBF/MTTF
               p.mb-0 Son siglas que representan el tiempo medio entre fallos y tiempo medio hasta el fallo (<em>Mean Time Between Failures / Mean Time To Failure</em>).
-    h5.my-4 La curva de la bañera:
+    h3(data-aos="fade-left").mb-3.mt-5.blue_icon La curva de la bañera
 
+    p.my-3 A lo largo de la vida de un elemento, equipo o máquina, la tasa de fallo tiene un comportamiento. De esta forma, la vida de esta compuesta por tres fracciones o periodos de tiempos: 
     .row.justify-content-center.my-4
       .col-lg-8
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul1")
