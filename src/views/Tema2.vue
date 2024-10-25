@@ -141,7 +141,6 @@
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img27.svg", alt="imagen decorativa")
         p.text-center Fuente: (SENA – LP Risaralda, 2014).
-      p.my-4 Si los instructivos deben aplicarse diariamente, entonces debes recurrirse a el formato rutina diaria. En seguida, se muestra un ejemplo del formato.
       
       .col-lg-12
         h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de un tablero de control diligenciado
