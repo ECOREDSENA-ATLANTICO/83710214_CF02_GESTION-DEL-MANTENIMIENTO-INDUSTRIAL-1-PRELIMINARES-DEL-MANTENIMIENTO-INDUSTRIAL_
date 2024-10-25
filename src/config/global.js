@@ -234,13 +234,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Luz Elena Montoya Rendón',
-          cargo: 'Asesora pedagógica',
+          nombre: 'Andrés Felipe Valencia Pimienta',
+          cargo: 'Integrador FAVA.',
           centro:
             'Centro de diseño e innovación tecnológica industrial – Regional Risaralda',
         },
         {
-          nombre: 'Marcela María Cardona Molina',
+          nombre: 'Carlos Andrés Mesa Montoya',
           cargo: 'Instructora',
           centro:
             'Centro de diseño e innovación tecnológica industrial – Regional Risaralda',
@@ -257,7 +257,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Eulises Orduz Amezquita',
+          nombre: 'Hernando Junior Strusberg Perez',
           cargo: 'Diseñador <em>web</em>',
           centro:
             'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
@@ -269,13 +269,7 @@ export default {
             'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Animador y productor audiovisual',
-          centro:
-            'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
-        },
-        {
-          nombre: 'Nelson Ivan Vera Briceño',
+          nombre: 'Alexander Rafael Acosta Bedoya',
           cargo: 'Animador y productor audiovisual',
           centro:
             'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
@@ -287,13 +281,13 @@ export default {
       autores: [
         {
           nombre: 'Jairo Luis Valencia Ebratt',
-          cargo: 'Validador de recursos educativos digitales',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro:
             'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
           nombre: 'Juan Carlos Cardona Acosta',
-          cargo: 'Validador de recursos educativos digitales',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro:
             'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },

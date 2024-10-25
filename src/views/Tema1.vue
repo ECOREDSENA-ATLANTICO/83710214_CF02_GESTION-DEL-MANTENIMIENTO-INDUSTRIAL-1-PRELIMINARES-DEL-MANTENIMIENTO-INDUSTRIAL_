@@ -127,7 +127,6 @@
         p.mb-0 La información manejada por cada función debe ser guardada, organizada y recopilada con el propósito de facilitar al usuario la posibilidad de convertirla en documentos o formatos entendibles, que permitan una adecuada utilización en los procesos de mantenimiento.
         img.d-none.d-md-block.my-4(src='@/assets/curso/temas/tema1/img34.svg', alt='Imagen decorativa')
 
-    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Funciones para realizar por una herramienta computacional para gestionar el mantenimiento
 
     .row.justify-content-center.my-4
       .col-lg-7.col-md-8
@@ -200,7 +199,6 @@
       .col-lg-3.col-md-8
         img(src="@/assets/curso/temas/tema1/img24.png", alt="alt")
       
-    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Interfaz de <em>Microsoft Office Excel®</em>
 
     .row.justify-content-center.my-4
       .col-lg-10.col-md-8

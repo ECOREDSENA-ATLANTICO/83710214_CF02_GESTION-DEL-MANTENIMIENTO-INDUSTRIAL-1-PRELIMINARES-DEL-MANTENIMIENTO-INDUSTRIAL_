@@ -93,7 +93,6 @@
             img.my-4(src="@/assets/curso/temas/tema2/img19.svg", alt="imagen decorativa")
           p.mt-2.text-center Fuente: (SENA – LP Risaralda, 2014).
 
-    h3(data-aos="fade-left").mb-3.blue_icon Ejemplo tarjeta maestra diligenciada
 
     .row.justify-content-center.fondo-imagen-5
       .col-lg-10.col-md-8
@@ -107,7 +106,7 @@
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img23.svg", alt="imagen decorativa")
     
-    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Hoja de vida de la máquina
+    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Hojas de vida
 
     p.my-4 Luego de realizar la tarjeta maestra, es importante contar para cada máquina con el recuento de identificación del equipo, fecha, código del instructivo, trabajo realizado, costo, tiempo y quien lo realiza. Lo anterior se conoce como hoja de vida de la máquina. A continuación, se presenta el esquema de una hoja de vida. 
     p Figura 8. <em>Hoja de vida de la máquina</em>
@@ -115,7 +114,6 @@
       img.my-4(src="@/assets/curso/temas/tema2/img24.svg", alt="imagen decorativa")
     p.text-center Fuente: (SENA – LP Risaralda, 2014).
 
-    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Ejemplo hoja de vida diligenciada
     p Figura 9. <em>Ejemplo hoja de vida diligenciada</em>
     figure
       img.my-4(src="@/assets/curso/temas/tema2/img25.svg", alt="imagen decorativa")
@@ -133,7 +131,6 @@
     
     p.my-4 A continuación, algunos esquemas de tablero de control:
 
-    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de un tablero de control
 
     .row.justify-content-center.fondo-imagen-6
       .col-lg-6.col-md-8
@@ -142,13 +139,12 @@
           img.my-4(src="@/assets/curso/temas/tema2/img27.svg", alt="imagen decorativa")
         p.text-center Fuente: (SENA – LP Risaralda, 2014).
       
-      .col-lg-12
-        h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de un tablero de control diligenciado
 
       .col-lg-6.col-md-8.justify-content-center
         p Figura 11. <em>Tablero de control diligenciado</em>
         figure
-          img.my-4(src="@/assets/curso/temas/tema2/img28.svg", alt="imagen decorativa")
+          img.mt-4(src="@/assets/curso/temas/tema2/img28.svg", alt="imagen decorativa")
+        p.text-center Fuente: (Herrera, 2014).
       p.my-4 Es bueno resaltar que el requerimiento L-03 puede servir para varias máquinas, pero tener diferentes frecuencias de ejecución. Por lo anterior los instructivos no deben llevar escrito a que máquinas se van a implementar. En el único espacio donde se sabe a qué equipos se les ejecuta es determinado en el instructivo.
 
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Tableros auxiliares
@@ -163,7 +159,6 @@
           p.mt-0.mb-0 Si contamos con instructivos que se deban aplicar semanalmente, entonces se recurre a un formato llamado rutina semanal. A continuación, se muestra un ejemplo del formato.
     
     
-    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de un tablero de control: rutina semanal
     .row.justify-content-center.my-4
       .col-lg-10.col-md-8
         p Figura 12. <em>Esquema de un tablero de control: rutina semanal</em>
@@ -172,28 +167,28 @@
         p.text-center Fuente: (SENA – LP Risaralda, 2014).
     p.my-3 Si los instructivos deben aplicarse diariamente, entonces debes recurrirse a al formato rutina diaria. En seguida, se muestra un ejemplo del formato.
           
-    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de un tablero de control: rutina diaria
     .row.justify-content-center.my-4
       .col-lg-10.col-md-8
         p Figura 13. <em>Esquema de un tablero de control: rutina diaria</em>
         figure
-          img.my-4(src="@/assets/curso/temas/tema2/img32.svg", alt="imagen decorativa")
+          img.mt-4(src="@/assets/curso/temas/tema2/img32.svg", alt="imagen decorativa")
+        p.text-center Fuente: (SENA – LP Risaralda, 2014).
           
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Órdenes de trabajo
 
 
     .row.justify-content-center.my-4
       .col-lg-12
-        p.mb-4 Para que el proceso de control de mantenimiento sea eficiente, es necesario diseñar un formato que brinde una información detallada de las acciones realizadas en el mantenimiento. Dicho formato se conoce como orden de trabajo, el cual permite.
+        p.mb-4 Para que el proceso de control de mantenimiento sea eficiente, es necesario diseñar un formato que brinde una información detallada de las acciones realizadas en el mantenimiento. Dicho formato se conoce como orden de trabajo.
       .col-lg-12.d-lg-block.d-none
-        p.my-4 Después, en el siguiente carrusel se podrán observar las diferentes formas de las órdenes de trabajo.
+        p.my-4 En el siguiente carrusel se podrán observar las diferentes formas de las órdenes de trabajo.
         
       .col-lg-4.col-md-8.order-md-2
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img33.png", alt="imagen decorativa")
       
       .col-lg-12.order-md-3.d-lg-none.d-block
-        p.my-4 Después, en el siguiente carrusel se podrán observar las diferentes formas de las órdenes de trabajo.
+        p.my-4 En el siguiente carrusel se podrán observar las diferentes formas de las órdenes de trabajo.
 
       .col-lg-8.order-md-4
         SlyderF(columnas="col-md-6 col-lg-6 col-xl-6")
@@ -294,6 +289,7 @@
 
     p Figura 14. <em>Esquema formato orden de trabajo</em>
     img(src="@/assets/curso/temas/tema2/img44.svg", alt="alt")
+    p.text-center Fuente: (Dixon, 2000).
 
 
 
