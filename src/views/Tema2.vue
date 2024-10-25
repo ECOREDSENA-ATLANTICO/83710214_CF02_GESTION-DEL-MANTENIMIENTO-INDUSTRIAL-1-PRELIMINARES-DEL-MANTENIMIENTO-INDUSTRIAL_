@@ -50,7 +50,7 @@
         figure
           img.my-4(style="padding:3em")(src="@/assets/curso/temas/tema2/img7.png", alt="imagen decorativa")
 
-    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de tarjeta
+    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Tarjetas maestras
 
     p.my-3 Son las fichas donde se consignan las características principales de la máquina obtenidas a través de sus placas, recolección de información en catálogos, personas involucradas, página web donde podemos encontrar fecha de compra, marca, modelo, motor, capacidad, color, tamaño, peso, servicios, entre otros.
     p.my-3 A continuación, varios ejemplos de tarjetas maestras:
@@ -93,7 +93,7 @@
             img.my-4(src="@/assets/curso/temas/tema2/img19.svg", alt="imagen decorativa")
           p.mt-2.text-center Fuente: (SENA – LP Risaralda, 2014).
 
-    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Ejemplo tarjeta maestra diligenciada
+    h3(data-aos="fade-left").mb-3.blue_icon Ejemplo tarjeta maestra diligenciada
 
     .row.justify-content-center.fondo-imagen-5
       .col-lg-10.col-md-8
@@ -150,7 +150,7 @@
         p Figura 11. <em>Tablero de control diligenciado</em>
         figure
           img.my-4(src="@/assets/curso/temas/tema2/img28.svg", alt="imagen decorativa")
-      p.my-4 Es bueno resaltar que el requerimiento L-03 puede servir para varias máquinas, pero tener diferentes frecuencias de ejecución. Por lo anterior los instructivos no deben llevar escrito a que maquinas se van a implementar. En el único espacio donde se sabe a qué equipos se les ejecuta es determinado en el instructivo.
+      p.my-4 Es bueno resaltar que el requerimiento L-03 puede servir para varias máquinas, pero tener diferentes frecuencias de ejecución. Por lo anterior los instructivos no deben llevar escrito a que máquinas se van a implementar. En el único espacio donde se sabe a qué equipos se les ejecuta es determinado en el instructivo.
 
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Tableros auxiliares
 
@@ -169,7 +169,9 @@
       .col-lg-10.col-md-8
         p Figura 12. <em>Esquema de un tablero de control: rutina semanal</em>
         figure
-          img.my-4(src="@/assets/curso/temas/tema2/img31.svg", alt="imagen decorativa")
+          img.mt-4(src="@/assets/curso/temas/tema2/img31.svg", alt="imagen decorativa")
+        p.text-center Fuente: (SENA – LP Risaralda, 2014).
+    p.my-3 Si los instructivos deben aplicarse diariamente, entonces debes recurrirse a al formato rutina diaria. En seguida, se muestra un ejemplo del formato.
           
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Esquema de un tablero de control: rutina diaria
     .row.justify-content-center.my-4

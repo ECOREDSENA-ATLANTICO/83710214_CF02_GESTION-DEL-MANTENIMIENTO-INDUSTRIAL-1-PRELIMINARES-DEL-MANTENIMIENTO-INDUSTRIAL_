@@ -137,6 +137,7 @@
         p Figura 15. <em>Curva de la Bañera</em>
         figure
           img(src="@/assets/curso/temas/tema3/img15.svg", alt="imagen decorativa")
+        p.text-center Fuente: (Arturo Ruiz Falcó, 2012).
 
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Actividades en mantenimiento
 
@@ -211,7 +212,7 @@
           .row(titulo="Reparación imprevista")(style="color: white")
             .col-lg-12
               p.mb-3.text-light Esta reparación se efectúa en el momento en que la avería o falla se presenta. La reparación que se requiere luego de una avería depende de la magnitud de esta y puede tener la importancia de una reparación menor, intermedia o general, siendo en casos muy específicos, requerir el cambio o la reposición completa del equipo.
-              p.my-4.text-lightEn Las causas que pueden generar este tipo de averías son muy diversas. A continuación, se nombran algunas:
+              p.my-4.text-light En Las causas que pueden generar este tipo de averías son muy diversas. A continuación, se nombran algunas:
               p.my-4.text-light -Pobre lubricación o ausencia de esta.<br>-Elevada carga en el equipo o máquina.<br>-Defectos de fabricación o de funcionamiento en componentes tecnológicos.<br>-Programación de reparación inoportuna o inadecuada.<br>-Baja calidad en el proceso de reparación anterior.<br>-Incremento o disminución del voltaje.<br>-Las fallas o averías se deben investigar con el fin de determinar las causas que la  provocaron, y de acuerdo con los resultados obtenidos tomar las medidas encaminadas a disminuir la posibilidad de futuras averías con comportamientos similares.
           
       .col-lg-4.col-md-8.align-content-center

@@ -143,7 +143,7 @@
       .col-lg-8(data-aos="fade-left")
         .cajon.color-primario.p-4(style="background: #E69999")
           p.mt-0.mb-0 Es muy importante analizar si en la empresa es necesario adquirir herramientas especializadas para la gestión del mantenimiento. En ocasiones, no es justificable adquirir una herramienta con las funciones mencionadas por ello: se debe determinar si es posible su aplicación, justificar la implementación de la herramienta y los costos iniciales asociados a la adaptación y adecuación de la herramienta.
-        p.my-4 Teniendo presente que la gran mayoría de empresas requieren solo de la gestión del mantenimiento de equipos, los programas ofimáticos como: Microsoft Acces® o Microsoft Excel® brindan excelentes alternativas para la planificación y organización de las acciones del mantenimiento. Por su practicidad y uso común, se brindarán las pautas básicas para la utilización de Microsoft Excel, como herramienta para la generación de los formatos y almacenamiento de información. 
+        p.my-4 Teniendo presente que la gran mayoría de empresas requieren solo de la gestión del mantenimiento de equipos, los programas ofimáticos como: <em>Microsoft Acces®</em> o <em>Microsoft Excel®</em> brindan excelentes alternativas para la planificación y organización de las acciones del mantenimiento. Por su practicidad y uso común, se brindarán las pautas básicas para la utilización de <em>Microsoft Excel</em>, como herramienta para la generación de los formatos y almacenamiento de información. 
     p.my-4 En general, los formatos con los que se dispone en la gestión del mantenimiento son:
 
     .row.justify-content-center.align-content-center.p-5(style="background: #F6F6F6")
@@ -192,7 +192,7 @@
           p.text-center.mb-0 Órdenes de trabajo.
     p.my-4 A continuación, se brindarán los elementos y la información que debe contener cada uno de los formatos, así como ejemplos para su correcto diligenciamiento e implementación haciendo uso de la herramienta <em>Microsoft Excel</em>.
 
-    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Conceptos Básicos de <em>Microsoft Excel</em>
+    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Conceptos básicos de <em>Microsoft Excel</em>
     
     .row.justify-content-center.align-items-center.p-4(style="background: #F6D8D8")
       .col-lg-9
@@ -200,7 +200,7 @@
       .col-lg-3.col-md-8
         img(src="@/assets/curso/temas/tema1/img24.png", alt="alt")
       
-    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Interfaz de Microsoft Office Excel®
+    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Interfaz de <em>Microsoft Office Excel®</em>
 
     .row.justify-content-center.my-4
       .col-lg-10.col-md-8
