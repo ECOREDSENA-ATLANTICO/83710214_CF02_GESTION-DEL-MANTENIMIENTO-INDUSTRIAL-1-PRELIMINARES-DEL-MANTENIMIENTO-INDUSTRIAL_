@@ -173,14 +173,14 @@
               .row.mb-3.justify-content-center
                 .col-6
                   img(src="@/assets/curso/temas/tema2/img42.svg", alt="alt")(style="width: 100px")
-              p.text-center.mb-0 ¿Cuánto tiempo duro el elemento o pieza en funcionamiento?
+              p.text-center.mb-0 ¿Cuánto tiempo duró el elemento o pieza en funcionamiento?
           .col-md-6.my-2
             .tarjeta.p-4.fnd-7
               h4.mb-0 02
               .row.justify-content-center.mb-3
                 .col-6
                   img(src="@/assets/curso/temas/tema2/img43.svg", alt="alt")(style="width: 100px")
-              p.text-center.mb-0 ¿Qué tipo de solicitaciones de carga experimento la pieza en el instante en que se produjo la avería?
+              p.text-center.mb-0 ¿Qué tipo de solicitaciones de carga experimentó la pieza en el instante en que se produjo la avería?
         .row.justify-content-center
           .col-lg-2.col-md-6.my-2
             .tarjeta.p-4.fnd-7
@@ -202,7 +202,7 @@
               .row.justify-content-center.mb-3
                 .col-6
                   img(src="@/assets/curso/temas/tema2/img42.svg", alt="alt")(style="width: 100px")
-              p.text-center.mb-0 ¿Las actividades de mantenimiento aplicadas a la pieza fueron las adecuados?.
+              p.text-center.mb-0 ¿Las actividades de mantenimiento aplicadas a la pieza fueron las adecuados?
       .col-lg-3.col-md-8.align-content-center.justify-content-center
         img.my-4(src="@/assets/curso/temas/tema4/img28.png", alt="alt")
 

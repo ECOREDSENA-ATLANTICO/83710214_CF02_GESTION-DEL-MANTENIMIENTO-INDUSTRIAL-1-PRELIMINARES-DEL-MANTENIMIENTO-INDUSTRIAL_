@@ -31,7 +31,7 @@
           img.my-4(src="@/assets/curso/temas/tema2/img5.png", alt="imagen decorativa")
     
 
-    .row.justify-content-center.my-4.fondo-imagen-4
+    .row.justify-content-center.my-3.fondo-imagen-4
       .col-lg-6
         h3(data-aos="fade-left").mb-3.mt-4.blue_icon Concepciones más usadas
         ul.mt-3
@@ -48,9 +48,9 @@
             span(style="color: #12263F") Codificación de las máquinas: son nomenclaturas internas utilizadas con el fin de lograr una mejor identificación de la máquina.
       .col-lg-6.col-md-8.align-content-center.justify-content-center
         figure
-          img.my-4(style="padding:3em")(src="@/assets/curso/temas/tema2/img7.png", alt="imagen decorativa")
+          img.mt-4(style="padding:3em")(src="@/assets/curso/temas/tema2/img7.png", alt="imagen decorativa")
 
-    h3(data-aos="fade-left").mb-3.mt-4.blue_icon Tarjetas maestras
+    h3(data-aos="fade-left").mb-3.mt-2.blue_icon Tarjetas maestras
 
     p.my-3 Son las fichas donde se consignan las características principales de la máquina obtenidas a través de sus placas, recolección de información en catálogos, personas involucradas, página web donde podemos encontrar fecha de compra, marca, modelo, motor, capacidad, color, tamaño, peso, servicios, entre otros.
     p.my-3 A continuación, varios ejemplos de tarjetas maestras:
