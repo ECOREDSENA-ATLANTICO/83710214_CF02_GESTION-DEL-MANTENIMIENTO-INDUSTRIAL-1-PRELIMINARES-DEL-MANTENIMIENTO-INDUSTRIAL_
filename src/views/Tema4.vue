@@ -158,7 +158,7 @@
               .row.justify-content-center.mb-3
                 .col-8
                   img(src="@/assets/curso/temas/tema2/img42.svg", alt="alt")(style="width: 100px")
-              p.text-center.mb-0 ¿Las actividades de mantenimiento aplicadas a la pieza fueron las adecuados?
+              p.text-center.mb-0 ¿Las actividades de mantenimiento aplicadas a la pieza fueron las adecuadas?
           .col-lg-auto.my-2.col-md-8.align-content-center
             img(src="@/assets/curso/temas/tema4/img28.png", alt="imagen decorativa")
 
@@ -202,7 +202,7 @@
               .row.justify-content-center.mb-3
                 .col-6
                   img(src="@/assets/curso/temas/tema2/img42.svg", alt="alt")(style="width: 100px")
-              p.text-center.mb-0 ¿Las actividades de mantenimiento aplicadas a la pieza fueron las adecuados?
+              p.text-center.mb-0 ¿Las actividades de mantenimiento aplicadas a la pieza fueron las adecuadas?
       .col-lg-3.col-md-8.align-content-center.justify-content-center
         img.my-4(src="@/assets/curso/temas/tema4/img28.png", alt="alt")
 
