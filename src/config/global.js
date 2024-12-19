@@ -241,7 +241,7 @@ export default {
         },
         {
           nombre: 'Carlos Andrés Mesa Montoya',
-          cargo: 'Instructora',
+          cargo: 'Instructor',
           centro:
             'Centro de diseño e innovación tecnológica industrial – Regional Risaralda',
         },
