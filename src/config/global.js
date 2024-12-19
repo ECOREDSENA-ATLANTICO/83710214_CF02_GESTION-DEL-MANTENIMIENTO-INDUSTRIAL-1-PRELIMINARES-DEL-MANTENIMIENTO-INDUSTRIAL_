@@ -235,7 +235,7 @@ export default {
       autores: [
         {
           nombre: 'Andrés Felipe Valencia Pimienta',
-          cargo: 'Integrador FAVA.',
+          cargo: 'Integrador FAVA',
           centro:
             'Centro de diseño e innovación tecnológica industrial – Regional Risaralda',
         },
