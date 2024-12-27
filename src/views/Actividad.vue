@@ -32,10 +32,8 @@ export default {
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
@@ -47,10 +45,8 @@ export default {
             { id: 'a', texto: 'Falso', esCorrecta: true },
             { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 3,
@@ -62,10 +58,8 @@ export default {
             { id: 'a', texto: 'Falso', esCorrecta: false },
             { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 4,
@@ -77,10 +71,8 @@ export default {
             { id: 'a', texto: 'Falso', esCorrecta: false },
             { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 5,
@@ -92,10 +84,8 @@ export default {
             { id: 'a', texto: 'Falso', esCorrecta: false },
             { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 6,
@@ -107,10 +97,8 @@ export default {
             { id: 'a', texto: 'Falso', esCorrecta: false },
             { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 7,
@@ -122,10 +110,8 @@ export default {
             { id: 'a', texto: 'Falso', esCorrecta: false },
             { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 8,
@@ -137,10 +123,8 @@ export default {
             { id: 'a', texto: 'Falso', esCorrecta: false },
             { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 9,
@@ -152,10 +136,8 @@ export default {
             { id: 'a', texto: 'Falso', esCorrecta: false },
             { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 10,
@@ -167,10 +149,8 @@ export default {
             { id: 'a', texto: 'Falso', esCorrecta: false },
             { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',

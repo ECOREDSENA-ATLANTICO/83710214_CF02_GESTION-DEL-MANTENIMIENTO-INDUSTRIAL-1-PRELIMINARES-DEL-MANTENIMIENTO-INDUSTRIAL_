@@ -19,12 +19,12 @@
       .col-lg-6.col-md-8
         p Figura 3. <em>Ejemplo Instructivo</em>
         figure
-          img.my-4(src="@/assets/curso/temas/tema2/img2.svg", alt="imagen decorativa")   
+          img.my-4(src="@/assets/curso/temas/tema2/img2.svg", alt="Se muestra un ejemplo de instructivo de la empresa LTDA departamento de mantenimiento.")   
         p.text-center Fuente: (SENA – LP Risaralda, 2014).
 
     .row.justify-content-center.fondo-imagen-3.p-3
       .col-lg-9.align-content-center
-        p Con el ejemplo anterior, se observa que el instructivo es la bitácora del operario, el cual lo orienta y direcciona en el desarrollo y ejecución de la acción del mantenimiento. Los instructivos pueden ser de lubricación, electricidad, mecánica e Instrumentación.
+        p Con el ejemplo anterior, se observa que el instructivo es la bitácora del operario, el cual lo orienta y direcciona en el desarrollo y ejecución de la acción del mantenimiento. Los instructivos pueden ser de lubricación, electricidad, mecánica e instrumentación.
         p Para establecer los requerimientos e instructivos necesarios en los equipos que se encuentran bajo la supervisión del área de mantenimiento, es necesario realizar los siguientes pasos:
       .col-lg-3.col-md-8
         figure
@@ -36,16 +36,16 @@
         h3(data-aos="fade-left").mb-3.mt-4.blue_icon Concepciones más usadas
         ul.mt-3
           li
-            span(style="color: #12263F") Estado funcional de la máquina: este permite conocer la función que realiza, y el papel que desempeña en la empresa.
+            span(style="color: #12263F") <b>Estado funcional de la máquina:</b> este permite conocer la función que realiza, y el papel que desempeña en la empresa.
         ul.mt-3
           li
-            span(style="color: #12263F") Verificación del estado de la máquina: hace referencia a su estado de funcionamiento.
+            span(style="color: #12263F") <b>Verificación del estado de la máquina:</b> hace referencia a su estado de funcionamiento.
         ul.mt-3
           li
-            span(style="color: #12263F") Empadronamiento de las máquinas: es un inventario de todos los equipos de la empresa que van a ser incluidos dentro del plan de mantenimiento.
+            span(style="color: #12263F") <b>Empadronamiento de las máquinas:</b> es un inventario de todos los equipos de la empresa que van a ser incluidos dentro del plan de mantenimiento.
         ul.mt-3
           li
-            span(style="color: #12263F") Codificación de las máquinas: son nomenclaturas internas utilizadas con el fin de lograr una mejor identificación de la máquina.
+            span(style="color: #12263F") <b>Codificación de las máquinas:</b> son nomenclaturas internas utilizadas con el fin de lograr una mejor identificación de la máquina.
       .col-lg-6.col-md-8.align-content-center.justify-content-center
         figure
           img.mt-4(style="padding:3em")(src="@/assets/curso/temas/tema2/img7.png", alt="imagen decorativa")
@@ -59,38 +59,38 @@
       .col-lg-10.col-md-8 
         p Figura 4. <em>Esquema de tarjeta</em>
         figure
-          img.my-4(src="@/assets/curso/temas/tema2/img8.svg", alt="imagen decorativa")
+          img.my-4(src="@/assets/curso/temas/tema2/img8.svg", alt="Se muestra esquema de tarjeta.")
         figure
-          img.my-4(src="@/assets/curso/temas/tema2/img9.svg", alt="imagen decorativa")
+          img.my-4(src="@/assets/curso/temas/tema2/img9.svg", alt="Se muestra esquema de tarjeta.")
         p.mt-2.text-center Fuente: (SENA – LP Risaralda, 2014).
       .row.justify-content-center.my-4 
         .col-lg-10.col-md-8 
           p Figura 5. <em>Tarjeta de motores hidráulicos</em>
           figure
-            img.my-4(src="@/assets/curso/temas/tema2/img10.svg", alt="imagen decorativa")
+            img.my-4(src="@/assets/curso/temas/tema2/img10.svg", alt="Se muestra tarjeta de motores hidráulicos.")
           figure
-            img.my-4(src="@/assets/curso/temas/tema2/img11.svg", alt="imagen decorativa")
+            img.my-4(src="@/assets/curso/temas/tema2/img11.svg", alt="Se muestra tarjeta de motores hidráulicos.")
           figure
-            img.my-4(src="@/assets/curso/temas/tema2/img12.svg", alt="imagen decorativa")
+            img.my-4(src="@/assets/curso/temas/tema2/img12.svg", alt="Se muestra tarjeta de motores hidráulicos.")
           figure
-            img.my-4(src="@/assets/curso/temas/tema2/img13.svg", alt="imagen decorativa")
+            img.my-4(src="@/assets/curso/temas/tema2/img13.svg", alt="Se muestra tarjeta de motores hidráulicos.")
           figure
-            img.my-4(src="@/assets/curso/temas/tema2/img14.svg", alt="imagen decorativa")
+            img.my-4(src="@/assets/curso/temas/tema2/img14.svg", alt="Se muestra tarjeta de motores hidráulicos.")
           p.mt-2.text-center Fuente: (SENA – LP Risaralda, 2014).
     
       .row.justify-content-center.my-4 
         .col-lg-10.col-md-8 
           p Figura 6. <em>Tarjeta de válvulas</em>
           figure
-            img.my-4(src="@/assets/curso/temas/tema2/img15.svg", alt="imagen decorativa")
+            img.my-4(src="@/assets/curso/temas/tema2/img15.svg", alt="Se muestra una tarjeta de válvulas.")
           figure
-            img.my-4(src="@/assets/curso/temas/tema2/img16.svg", alt="imagen decorativa")
+            img.my-4(src="@/assets/curso/temas/tema2/img16.svg", alt="Se muestra una tarjeta de válvulas.")
           figure
-            img.my-4(src="@/assets/curso/temas/tema2/img17.svg", alt="imagen decorativa")
+            img.my-4(src="@/assets/curso/temas/tema2/img17.svg", alt="Se muestra una tarjeta de válvulas.")
           figure
-            img.my-4(src="@/assets/curso/temas/tema2/img18.svg", alt="imagen decorativa")
+            img.my-4(src="@/assets/curso/temas/tema2/img18.svg", alt="Se muestra una tarjeta de válvulas.")
           figure
-            img.my-4(src="@/assets/curso/temas/tema2/img19.svg", alt="imagen decorativa")
+            img.my-4(src="@/assets/curso/temas/tema2/img19.svg", alt="Se muestra una tarjeta de válvulas.")
           p.mt-2.text-center Fuente: (SENA – LP Risaralda, 2014).
 
 
@@ -98,13 +98,13 @@
       .col-lg-10.col-md-8
         p.my-4 Figura 7. <em>Ejemplo tarjeta maestra diligenciada</em>
         figure
-          img.my-4(src="@/assets/curso/temas/tema2/img21.svg", alt="imagen decorativa")
+          img.my-4(src="@/assets/curso/temas/tema2/img21.svg", alt="Se muestra tarjeta maestra diligenciada.")
       .col-lg-7.col-md-8
         figure
-          img.my-4(src="@/assets/curso/temas/tema2/img22.svg", alt="imagen decorativa")
+          img.my-4(src="@/assets/curso/temas/tema2/img22.svg", alt="Se muestra tarjeta maestra diligenciada.")
       .col-lg-7.col-md-8
         figure
-          img.my-4(src="@/assets/curso/temas/tema2/img23.svg", alt="imagen decorativa")
+          img.my-4(src="@/assets/curso/temas/tema2/img23.svg", alt="Se muestra tarjeta maestra diligenciada.")
         p.mt-2.text-center Fuente: (SENA – LP Risaralda, 2014).
     
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Hojas de vida
@@ -112,12 +112,12 @@
     p.my-4 Luego de realizar la tarjeta maestra, es importante contar para cada máquina con el recuento de identificación del equipo, fecha, código del instructivo, trabajo realizado, costo, tiempo y quien lo realiza. Lo anterior se conoce como hoja de vida de la máquina. A continuación, se presenta el esquema de una hoja de vida. 
     p Figura 8. <em>Hoja de vida de la máquina</em>
     figure
-      img.my-4(src="@/assets/curso/temas/tema2/img24.svg", alt="imagen decorativa")
+      img.my-4(src="@/assets/curso/temas/tema2/img24.svg", alt="Se muestra la hoja de vida de la máquina.")
     p.text-center Fuente: (SENA – LP Risaralda, 2014).
 
     p Figura 9. <em>Ejemplo hoja de vida diligenciada</em>
     figure
-      img.my-4(src="@/assets/curso/temas/tema2/img25.svg", alt="imagen decorativa")
+      img.my-4(src="@/assets/curso/temas/tema2/img25.svg", alt="Se muestra la hoja de vida diligenciada, con el nombre de la máquina, código, ubicación y fabricación.")
     p.mt-2.text-center Fuente: (SENA – LP Risaralda, 2014).
 
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Tableros de control
@@ -138,14 +138,14 @@
       .col-lg-7.col-md-8
         p Figura 10. <em>Esquema de un tablero de control</em>
         figure
-          img.my-4(src="@/assets/curso/temas/tema2/img27.svg", alt="imagen decorativa")
+          img.my-4(src="@/assets/curso/temas/tema2/img27.svg", alt="Se muestra el esquema de un tablero de control.")
         p.text-center Fuente: (SENA – LP Risaralda, 2014).
       
 
       .col-lg-7.col-md-8.justify-content-center
         p Figura 11. <em>Tablero de control diligenciado</em>
         figure
-          img.mt-4(src="@/assets/curso/temas/tema2/img28.svg", alt="imagen decorativa")
+          img.mt-4(src="@/assets/curso/temas/tema2/img28.svg", alt="Se muestra un tablero de control diligenciado.")
         p.text-center Fuente: (Herrera, 2014).
       p.my-4 Es bueno resaltar que el requerimiento L-03 puede servir para varias máquinas, pero tener diferentes frecuencias de ejecución. Por lo anterior los instructivos no deben llevar escrito a que máquinas se van a implementar. En el único espacio donde se sabe a qué equipos se les ejecuta es determinado en el instructivo.
 
@@ -165,7 +165,7 @@
       .col-lg-10.col-md-8
         p Figura 12. <em>Esquema de un tablero de control: rutina semanal</em>
         figure
-          img.mt-4(src="@/assets/curso/temas/tema2/img31.svg", alt="imagen decorativa")
+          img.mt-4(src="@/assets/curso/temas/tema2/img31.svg", alt="Se muestra el esquema de un tablero de control: rutina semanal.")
         p.text-center Fuente: (SENA – LP Risaralda, 2014).
     p.my-3 Si los instructivos deben aplicarse diariamente, entonces debes recurrirse a al formato rutina diaria. En seguida, se muestra un ejemplo del formato.
           
@@ -173,7 +173,7 @@
       .col-lg-10.col-md-8
         p Figura 13. <em>Esquema de un tablero de control: rutina diaria</em>
         figure
-          img.mt-4(src="@/assets/curso/temas/tema2/img32.svg", alt="imagen decorativa")
+          img.mt-4(src="@/assets/curso/temas/tema2/img32.svg", alt="Se muestra el esquema de un tablero de control: rutina diaria.")
         p.text-center Fuente: (SENA – LP Risaralda, 2014).
           
     h3(data-aos="fade-left").mb-3.mt-4.blue_icon Órdenes de trabajo
@@ -221,6 +221,18 @@
           .tarjeta-fondo.p-4
             .row.justify-content-center.mb-3
               .col-8.col-md-6
+                img(src="@/assets/curso/temas/tema2/img37.png", alt="imagen decorativa")
+            p.text-center Código del equipo o máquina, se debe incluir su descripción y ubicación en la planta.
+
+          .tarjeta-fondo.p-4
+            .row.justify-content-center.mb-3
+              .col-8.col-md-6
+                img(src="@/assets/curso/temas/tema2/img37.png", alt="imagen decorativa")
+            p.text-center Nombre del usuario quien solicita el trabajo (se debe incluir el área odepartamento a donde pertenece).
+
+          .tarjeta-fondo.p-4
+            .row.justify-content-center.mb-3
+              .col-8.col-md-6
                 img(src="@/assets/curso/temas/tema2/img38.png", alt="imagen decorativa")
             p.text-center Nombre de trabajo y su descripción, el cual debe incluir el número de trabajadores necesarios, herramientas y equipos, insumos o consumibles, así como el tiempo necesario. Si el procedimiento requiere instructivos, estos deben ser referenciados.
 
@@ -230,20 +242,7 @@
                 img(src="@/assets/curso/temas/tema2/img39.png", alt="imagen decorativa")
             p.text-center • Fecha de ejecución y nivel de urgencia o prioridad.<br>• De ser necesario, se debe brindar información de ingeniería (diagramas, planos y especificaciones).
 
-
-          .tarjeta-fondo.p-4
-            .row.justify-content-center.mb-3
-              .col-8.col-md-6
-                img(src="@/assets/curso/temas/tema2/img40.png", alt="imagen decorativa")
-            p.text-center Código del equipo o máquina, se debe incluir su descripción y ubicación en la planta.
-
-          .tarjeta-fondo.p-4
-            .row.justify-content-center.mb-3
-              .col-8.col-md-6
-                img(src="@/assets/curso/temas/tema2/img41.png", alt="imagen decorativa")
-            p.text-center Nombre del usuario quien solicita el trabajo (se debe incluir el área o departamento a donde pertenece).
-
-        
+  
     p.my-4 Para la programación y control, la orden de trabajo debe contener la siguiente información:
     
     .row.justify-content-center.align-content-center.p-5(style="background: #F2CCCC")
@@ -290,7 +289,7 @@
     p.my-4 A continuación, se muestra un ejemplo de orden de trabajo para propósitos generales:
 
     p Figura 14. <em>Esquema formato orden de trabajo</em>
-    img(src="@/assets/curso/temas/tema2/img44.svg", alt="alt")
+    img(src="@/assets/curso/temas/tema2/img44.svg", alt="Se muestra el formato de orden de trabajo.")
     p.text-center Fuente: (Dixon, 2000).
 
 

@@ -10,7 +10,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Se muestra una síntesis de la ejecución de actividades y software para órdenes de trabajos. La gestión de mantenimiento industrial es crucial para asegurar el buen funcionamiento de maquinaria y equipos en una planta o instalación. Las actividades y el software relacionados con la gestión de órdenes de trabajo son claves para su gestión.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

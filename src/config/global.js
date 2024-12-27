@@ -264,7 +264,7 @@ export default {
         },
         {
           nombre: 'Rafael Bladimir Pérez Meriño',
-          cargo: 'Desarrollador <em>fullstack</em>',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro:
             'Centro para el desarrollo agroecológico y agroindustrial Sabanalarga - Regional Atlántico',
         },

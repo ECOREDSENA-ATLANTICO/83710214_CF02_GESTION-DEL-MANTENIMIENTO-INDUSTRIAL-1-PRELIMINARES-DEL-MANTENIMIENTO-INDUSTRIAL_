@@ -132,7 +132,7 @@
       .col-lg-7.col-md-8
         p Figura 1. <em>Funciones para realizar por una herramienta computacional para gestionar el mantenimiento</em>
         figure
-          img.my-4(src='@/assets/curso/temas/tema1/img16.svg', alt='Imagen decorativa')
+          img.my-4(src='@/assets/curso/temas/tema1/img16.svg', alt='Se muestra un ejemplo de funciones para realizar una herramienta computacional para gestionar el mantenimiento.')
         p.mt-2 Fuente: (SENA – LP Risaralda, 2014).
 
     .row.justify-content-center.my-4
@@ -204,7 +204,7 @@
       .col-lg-10.col-md-8
         p Figura 2. <em>Interfaz de Microsoft Office Excel®</em>
         figure
-          img.my-4(src='@/assets/curso/temas/tema1/img25.png', alt='Imagen decorativa')
+          img.my-4(src='@/assets/curso/temas/tema1/img25.png', alt='Se muestra una interfaz de Microsoft Excel.')
         p.mt-2.text-center Fuente: (SENA – LP Risaralda, 2014).
 
     p.mt-4.mb-3 A continuación, se enuncian algunas funciones de esta herramienta:
@@ -264,7 +264,7 @@
     
           .row.p-3
             .col-lg-7.align-content-center
-                p Si al momento de introducir el dato, este es incorrecto, puede detener el proceso oprimiendo la tecla ESC u oprimiendo el botón Cancelar de la barra de fórmulas tal y como se muestra en la siguiente figura.
+                p Si al momento de introducir el dato, este es incorrecto, puede detener el proceso oprimiendo la tecla ESC u oprimiendo el botón <b>cancelar</b> de la barra de fórmulas tal y como se muestra en la siguiente figura.
             .col-lg-5.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema1/img33.png', alt='Imagen decorativa')
