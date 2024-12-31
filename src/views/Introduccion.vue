@@ -11,7 +11,7 @@
     p.my-3 El componente formativo ejecución de actividades y <em>software</em> para órdenes de trabajo, se enfoca en describir la implementación y ejecución de las actividades programadas de mantenimiento a través de un estricto control y seguimiento por parte del área de mantenimiento. Esta labor es engorrosa, sensible al error humano y requiere mucho tiempo en su etapa de implementación y puesta en marcha. Es por esto, que se recurre a herramientas computacionales que permitan planificar y organizar las acciones del mantenimiento. Bienvenido a este componente formativo:
     
     .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/1DU1UvOaM_o?si=mT5GnvzZf78OVqx-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/t9w1Ruvco-s?si=1gkfrYJsX9hOXXqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     figcaption Nota: Sena (2024).
     
 </template>
